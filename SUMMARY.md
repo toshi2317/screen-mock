@@ -1,4 +1,8 @@
 # Table of contents
 
-* [S103\_1 顧客一覧](README.md)
+* [説明](README.md)
+
+## 顧客
+
+* [S103\_2 顧客登録](customer/s1032-ke-deng.md)
 
