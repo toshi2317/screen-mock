@@ -256,7 +256,6 @@
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
 | 13 | 新規登録 | 押下でS103\_2 顧客登録画面へ遷移 |
-| 13 | 新規登録 | 別画面からPOPUPで起動した場合、当ボタンは非表示 |
 {% endtab %}
 {% endtabs %}
 
@@ -381,5 +380,485 @@
 {% endtab %}
 {% endtabs %}
 
+### 請求先情報ボタン部
 
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">22</td>
+      <td style="text-align:left">新規登録</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 22 | 新規登録 | 押下でS105\_1 請求先登録画面へ遷移 |
+{% endtab %}
+{% endtabs %}
+
+### 請求先情報一覧部
+
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">23</td>
+      <td style="text-align:left">ID</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">textlink</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">24</td>
+      <td style="text-align:left">請求先名</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">25</td>
+      <td style="text-align:left">ふりがな</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">26</td>
+      <td style="text-align:left">請求先担当者</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">27</td>
+      <td style="text-align:left">郵便番号</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">28</td>
+      <td style="text-align:left">都道府県</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">29</td>
+      <td style="text-align:left">住所</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">30</td>
+      <td style="text-align:left">無効フラグ</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+#### 使用API
+
+**billingSearch**
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | customerId |
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">表示条件/仕様</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">23</td>
+      <td style="text-align:left">ID</td>
+      <td style="text-align:left">押下でS105_2 請求先編集画面を別タブ起動</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">30</td>
+      <td style="text-align:left">無効フラグ</td>
+      <td style="text-align:left">
+        <p>0 -> OFF</p>
+        <p>1 -> ON</p>
+        <p>と表示</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="表示パラメータ名" %}
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 23 | ID | billingId |
+| 24 | 請求先名 | name |
+| 25 | ふりがな | kana |
+| 26 | 請求先担当者 | staffName |
+| 27 | 郵便番号 | zip |
+| 28 | 都道府県 | address1 |
+| 29 | 住所 | address2 |
+| 30 | 無効フラグ | desableFlag |
+{% endtab %}
+{% endtabs %}
+
+### 問合履歴情報ボタン部
+
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">31</td>
+      <td style="text-align:left">新規登録</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 31 | 新規登録 | 押下でS106\_2 問合履歴登録画面へ遷移 |
+{% endtab %}
+{% endtabs %}
+
+### 問合履歴情報一覧部
+
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">32</td>
+      <td style="text-align:left">ID</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">textlink</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">33</td>
+      <td style="text-align:left">担当者</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">34</td>
+      <td style="text-align:left">電話番号</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">35</td>
+      <td style="text-align:left">メールアドレス</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">36</td>
+      <td style="text-align:left">題名</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">37</td>
+      <td style="text-align:left">内容</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+#### 使用API
+
+**inquirySearch**
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | customerId |
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 32 | ID | 押下でS106\_3 問合履歴編集画面を別タブ起動 |
+{% endtab %}
+
+{% tab title="表示パラメータ名" %}
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 32 | ID | inquiryId |
+| 33 | 担当者 | staff |
+| 34 | 電話番号 | tel |
+| 35 | メールアドレス | email |
+| 36 | 題名 | title |
+| 37 | 内容 | contents |
+{% endtab %}
+{% endtabs %}
+
+### 見積情報ボタン部
+
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">38</td>
+      <td style="text-align:left">新規登録</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 38 | 新規登録 | 押下でS107\_2 見積登録画面へ遷移 |
+{% endtab %}
+{% endtabs %}
+
+### 見積情報一覧部
+
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">39</td>
+      <td style="text-align:left">ID</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">textlink</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">40</td>
+      <td style="text-align:left">見積日</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">41</td>
+      <td style="text-align:left">有効期限</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">42</td>
+      <td style="text-align:left">税抜合計</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">43</td>
+      <td style="text-align:left">納品予定日</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+#### 使用API
+
+**quotationSearch**
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | customerId |
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 39 | ID | 押下でS107\_3 見積編集画面を別タブ起動 |
+{% endtab %}
+
+{% tab title="表示パラメータ名" %}
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 39 | ID | quotationId |
+| 40 | 見積日 | quotationDate |
+| 41 | 有効期限 | quotationExpirationDate |
+| 42 | 税抜合計 | amount |
+| 44 | 納品予定日 | daliveryDate |
+{% endtab %}
+{% endtabs %}
+
+### 受注情報ボタン部
+
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">45</td>
+      <td style="text-align:left">新規登録</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 44 | 新規登録 | 押下でS108\_2 受注登録画面へ遷移 |
+{% endtab %}
+{% endtabs %}
+
+### 受注情報一覧部
+
+{% tabs %}
+{% tab title="項目制御" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">
+        <p>更新</p>
+        <p>表示</p>
+      </th>
+      <th style="text-align:left">部品種類</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">45</td>
+      <td style="text-align:left">ID</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">textlink</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">46</td>
+      <td style="text-align:left">受注日</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">47</td>
+      <td style="text-align:left">納品日</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">48</td>
+      <td style="text-align:left">契約金額</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">49</td>
+      <td style="text-align:left">区分</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+#### 使用API
+
+**orderSearch**
+
+| **No** | 名称 |  |
+| :--- | :--- | :--- |
+|  |  |  |
+{% endtab %}
+{% endtabs %}
 
