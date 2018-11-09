@@ -856,9 +856,25 @@
 
 **orderSearch**
 
-| **No** | 名称 |  |
+| **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-|  |  |  |
+| 1 | ID | customerId |
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 45 | ID | 押下でS108\_3 受注編集画面を別タブ起動 |
+{% endtab %}
+
+{% tab title="表示パラメータ名" %}
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 45 | ID | quotationId |
+| 46 | 受注日 | orderDate |
+| 47 | 納品日 | deliveryDate |
+| 48 | 契約金額 | contractAmount |
+| 49 | 区分 | type |
 {% endtab %}
 {% endtabs %}
 
