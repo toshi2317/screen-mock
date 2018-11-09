@@ -14,9 +14,6 @@
         <p>表示</p>
       </th>
       <th style="text-align:left">部品種類</th>
-      <th style="text-align:left">必須</th>
-      <th style="text-align:left">デフォルト</th>
-      <th style="text-align:left">文字数</th>
     </tr>
   </thead>
   <tbody>
@@ -25,9 +22,6 @@
       <td style="text-align:left">新規登録</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>

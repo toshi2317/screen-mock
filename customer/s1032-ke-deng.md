@@ -15,7 +15,6 @@
       </th>
       <th style="text-align:left">部品種類</th>
       <th style="text-align:left">必須</th>
-      <th style="text-align:left">デフォルト</th>
       <th style="text-align:left">文字数</th>
     </tr>
   </thead>
@@ -26,7 +25,6 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
       <td style="text-align:left">100</td>
     </tr>
     <tr>
@@ -35,7 +33,6 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left">Yes</td>
-      <td style="text-align:left"></td>
       <td style="text-align:left">200</td>
     </tr>
     <tr>
@@ -43,7 +40,6 @@
       <td style="text-align:left">電話番号</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left">100</td>
     </tr>
@@ -53,7 +49,6 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
       <td style="text-align:left">50</td>
     </tr>
     <tr>
@@ -61,7 +56,6 @@
       <td style="text-align:left">メールアドレス</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left">100</td>
     </tr>
@@ -71,7 +65,6 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
       <td style="text-align:left">8</td>
     </tr>
     <tr>
@@ -80,7 +73,6 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">list</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
       <td style="text-align:left">50</td>
     </tr>
     <tr>
@@ -88,7 +80,6 @@
       <td style="text-align:left">住所</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left">300</td>
     </tr>
@@ -99,14 +90,12 @@
       <td style="text-align:left">button</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">10</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
-      <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
