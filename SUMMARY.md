@@ -20,5 +20,7 @@
 
 ## 問合履歴
 
-* [S106\_1 問合一覧](inquiry/s1061-he-yi.md)
+* [S106\_1 問合履歴一覧](inquiry/s1061-he-yi.md)
+* [S106\_2 問合履歴登録](inquiry/s1062-he-lv-deng.md)
+* [S106\_3 問合履歴編集](inquiry/s1063-he-lv-ji.md)
 

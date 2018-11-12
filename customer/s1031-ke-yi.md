@@ -243,6 +243,11 @@
       <td style="text-align:left">押下でS103_3 顧客編集画面を別タブ起動する</td>
     </tr>
     <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">ID</td>
+      <td style="text-align:left">POPUP表示の場合、押下で親画面に値を引き継ぐ</td>
+    </tr>
+    <tr>
       <td style="text-align:left">18</td>
       <td style="text-align:left">無効フラグ</td>
       <td style="text-align:left">
