@@ -13,3 +13,12 @@
 * [S104\_1 納品先登録](pin-xian/s1041-pin-xian-deng.md)
 * [S104\_2 納品先編集](pin-xian/s1042-pin-xian-ji.md)
 
+## 請求先
+
+* [S105\_1 請求先登録](qiu-xian/s1051-qiu-xian-deng.md)
+* [S105\_2 請求先編集](qiu-xian/s1052-qiu-xian-ji.md)
+
+## 問合履歴
+
+* [S106\_1 問合一覧](he-lv/s1061-he-yi.md)
+

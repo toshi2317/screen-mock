@@ -196,6 +196,7 @@
 | 8 | 都道府県 | address1 |
 | 9 | 住所 | address2 |
 | 10 | 無効フラグ | desableFlag |
+| - | ユーザID | userId |
 {% endtab %}
 
 {% tab title="その他API" %}

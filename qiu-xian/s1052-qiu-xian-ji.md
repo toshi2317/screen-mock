@@ -1,6 +1,6 @@
-# S104\_2 納品先編集
+# S105\_2 請求先編集
 
-### 納品先情報部
+### 請求先情報部
 
 {% tabs %}
 {% tab title="項目制御" %}
@@ -37,7 +37,7 @@
     </tr>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">納品先名</td>
+      <td style="text-align:left">請求先名</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left">Y</td>
@@ -53,7 +53,7 @@
     </tr>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">納品先担当者</td>
+      <td style="text-align:left">請求先担当者</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
@@ -73,7 +73,7 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">list</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">50</td>
     </tr>
     <tr>
       <td style="text-align:left">8</td>
@@ -114,11 +114,11 @@
 {% tab title="起動時API" %}
 #### 使用API
 
-**locationSearch**
+**billingSearch**
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | ID | locationId |
+| 1 | ID | billingId |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -127,7 +127,7 @@
     <tr>
       <th style="text-align:left">No</th>
       <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">表示条件/</th>
     </tr>
   </thead>
   <tbody>
@@ -169,15 +169,15 @@
 {% tab title="保存API" %}
 #### 使用API
 
-locationSave
+billingSave
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | ID | locationId |
+| 1 | ID | billingId |
 | 2 | 顧客名 | customerId |
-| 3 | 納品先名 | name |
+| 3 | 請求先名 | name |
 | 4 | ふりがな | kana |
-| 5 | 納品先担当者 | staffName |
+| 5 | 請求先担当者 | staffName |
 | 6 | 郵便番号 | zip |
 | 7 | 都道府県 | address1 |
 | 8 | 住所 | address2 |

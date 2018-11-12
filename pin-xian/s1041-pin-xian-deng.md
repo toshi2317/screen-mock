@@ -22,7 +22,7 @@
     <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left">Y</td>
       <td style="text-align:left"></td>
