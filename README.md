@@ -28,7 +28,13 @@ S105\_2 請求先編集
 
 [https://briswell.gitbook.io/project/billing/s1052-qiu-xian-ji](https://briswell.gitbook.io/project/billing/s1052-qiu-xian-ji)
 
-S106\_1 問合一覧
+S106\_1 問合履歴一覧
 
 [https://briswell.gitbook.io/project/inquiry/s1061-he-yi](https://briswell.gitbook.io/project/inquiry/s1061-he-yi)
+
+S106\_2 問合履歴登録
+
+[https://briswell.gitbook.io/project/inquiry/s1062-he-lv-deng](https://briswell.gitbook.io/project/inquiry/s1062-he-lv-deng)
+
+S106\_3 問合履歴編集
 
