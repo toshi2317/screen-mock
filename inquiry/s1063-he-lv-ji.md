@@ -103,6 +103,18 @@ inquirySearch
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 1 | ID | inquiryId |
+
+#### セット内容
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | inquiryId |
+| 2 | 顧客名 | customerName |
+| 3 | 問合担当者 | staff |
+| 4 | 問合電話番号 | tel |
+| 5 | 問合メールアドレス | email |
+| 6 | 問合題名 | title |
+| 7 | 問合内容 | contents |
 {% endtab %}
 
 {% tab title="詳細仕様" %}

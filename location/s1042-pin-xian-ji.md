@@ -119,6 +119,20 @@
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 1 | ID | locationId |
+
+#### セット内容
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | locationId |
+| 2 | 顧客名 | customerName |
+| 3 | 納品先名 | name |
+| 4 | ふりがな | kana |
+| 5 | 納品先担当者 | staffName |
+| 6 | 郵便番号 | zip |
+| 7 | 都道府県 | address1 |
+| 8 | 住所 | address2 |
+| 9 | 無効フラグ | disableFlag |
 {% endtab %}
 
 {% tab title="詳細仕様" %}

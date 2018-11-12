@@ -134,16 +134,16 @@
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-|  |  | customerId |
-|  |  | name |
-|  |  | kana |
-|  |  | tel |
-|  |  | staffName |
-|  |  | email |
-|  |  | zip |
-|  |  | address1 |
-|  |  | address2 |
-|  |  | disableFlag |
+| 1 | ID | customerId |
+| 2 | 顧客名 | name |
+| 3 | ふりがな | kana |
+| 4 | 電話番号 | tel |
+| 5 | 担当者 | staffName |
+| 6 | メールアドレス | email |
+| 7 | 郵便番号 | zip |
+| 8 | 都道府県 | address1 |
+| 9 | 住所 | address2 |
+| 10 | 無効フラグ | disableFlag |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -395,7 +395,7 @@
 | 18 | 郵便番号 | zip |
 | 19 | 都道府県 | address1 |
 | 20 | 住所 | address2 |
-| 21 | 無効フラグ | desableFlag |
+| 21 | 無効フラグ | disableFlag |
 {% endtab %}
 {% endtabs %}
 
@@ -551,7 +551,7 @@
 | 27 | 郵便番号 | zip |
 | 28 | 都道府県 | address1 |
 | 29 | 住所 | address2 |
-| 30 | 無効フラグ | desableFlag |
+| 30 | 無効フラグ | disableFlag |
 {% endtab %}
 {% endtabs %}
 
