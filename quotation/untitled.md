@@ -1,4 +1,4 @@
-# S106\_1 問合履歴一覧
+# S107\_1 見積一覧
 
 ### ボタン部
 
@@ -30,7 +30,7 @@
 {% tab title="詳細仕様" %}
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
-| 1 | 新規登録 | 押下でS106\_2 問合履歴登録画面へ遷移 |
+| 1 | 新規登録 | 押下でS107\_2 見積登録画面へ遷移 |
 {% endtab %}
 {% endtabs %}
 
@@ -47,37 +47,68 @@
         <p>更新</p>
         <p>表示</p>
       </th>
+      <th style="text-align:left">部品種類</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">2</td>
       <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">電話番号</td>
+      <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
       <td style="text-align:left">メールアドレス</td>
+      <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">検索</td>
-      <td style="text-align:left">button</td>
+      <td style="text-align:left">見積日(From)</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">date</td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
-      <td style="text-align:left">クリア</td>
-      <td style="text-align:left">button</td>
+      <td style="text-align:left">見積日(To)</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">date</td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
+      <td style="text-align:left">見積有効期限(From)</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">date</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">見積有効期限(To)</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">date</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">検索</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">クリア</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
       <td style="text-align:left">CSV</td>
+      <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
     </tr>
   </tbody>
@@ -90,12 +121,12 @@
     <tr>
       <th style="text-align:left">No</th>
       <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left"></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">5</td>
+      <td style="text-align:left">9</td>
       <td style="text-align:left">検索</td>
       <td style="text-align:left">
         <p>検索APIを実行</p>
@@ -105,12 +136,12 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">6</td>
+      <td style="text-align:left">10</td>
       <td style="text-align:left">クリア</td>
       <td style="text-align:left">検索条件部をデフォルトの状態に戻す</td>
     </tr>
     <tr>
-      <td style="text-align:left">7</td>
+      <td style="text-align:left">11</td>
       <td style="text-align:left">CSV</td>
       <td style="text-align:left">検索結果をCSVとして出力する</td>
     </tr>
@@ -121,13 +152,17 @@
 {% tab title="検索API" %}
 #### 使用API
 
-**inquirySearch**
+quotationSearch
 
-| **No** | 名称 | パラメータ名 |
+| No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 2 | 顧客名 | customerName |
 | 3 | 電話番号 | customerTel |
 | 4 | メールアドレス | customerEmail |
+| 5 | 見積日\(From\) | quotationDateFrom |
+| 6 | 見積日\(To\) | quotationDateTo |
+| 7 | 見積有効期限\(From\) | quotationExpirationDateFrom |
+| 8 | 見積有効期限\(To\) | quotationExpirationDateTo |
 {% endtab %}
 {% endtabs %}
 
@@ -149,38 +184,50 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">12</td>
       <td style="text-align:left">ID</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
-      <td style="text-align:left">9</td>
+      <td style="text-align:left">13</td>
       <td style="text-align:left">顧客名</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">10</td>
-      <td style="text-align:left">問合担当者</td>
+      <td style="text-align:left">14</td>
+      <td style="text-align:left">電話番号</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">11</td>
-      <td style="text-align:left">問合電話番号</td>
+      <td style="text-align:left">15</td>
+      <td style="text-align:left">メールアドレス</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">12</td>
-      <td style="text-align:left">問合メールアドレス</td>
+      <td style="text-align:left">16</td>
+      <td style="text-align:left">見積日</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">13</td>
-      <td style="text-align:left">問合題名</td>
+      <td style="text-align:left">17</td>
+      <td style="text-align:left">見積有効期限</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">18</td>
+      <td style="text-align:left">税抜合計</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">19</td>
+      <td style="text-align:left">納品予定日</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
@@ -191,22 +238,24 @@
 {% tab title="詳細仕様" %}
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
-| 8 | ID | 押下でS106\_3 問合履歴編集画面を別タブ起動する |
+| 12 | ID | 押下でS106\_3 問合履歴編集画面を別タブ起動する |
 {% endtab %}
 
 {% tab title="表示API" %}
 #### 使用API
 
-**inquirySearch**
+quotationSearch
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 8 | ID | inquiryId |
-| 9 | 顧客名 | customerName |
-| 10 | 問合担当者 | staff |
-| 11 | 問合電話番号 | tel |
-| 12 | 問合メールアドレス | email |
-| 13 | 問合題名 | title |
+| 12 | ID | quotationId |
+| 13 | 顧客名 | customerName |
+| 14 | 電話番号 | customerTel |
+| 15 | メールアドレス | customerEmail |
+| 16 | 見積日 | quotationDate |
+| 17 | 見積有効期限 | quotationExpirationDate |
+| 18 | 税抜合計 | amount |
+| 19 | 納品予定日 | deliveryDate |
 {% endtab %}
 {% endtabs %}
 
