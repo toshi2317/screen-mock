@@ -27,4 +27,5 @@
 ## 見積
 
 * [S107\_1 見積一覧](quotation/untitled.md)
+* [S107\_2 見積登録](quotation/s1072-deng.md)
 
