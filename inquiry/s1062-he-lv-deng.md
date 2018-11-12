@@ -101,7 +101,7 @@
       <td style="text-align:left">1</td>
       <td style="text-align:left">顧客名</td>
       <td style="text-align:left">
-        <p>GETパラメータにcustomerIdが存在する場合</p>
+        <p>GETパラメータにcustomerIdが存在する場合、顧客APIを実行</p>
         <p>customerIdから[customerId - name]を表示</p>
       </td>
     </tr>
@@ -111,7 +111,7 @@
       <td style="text-align:left">
         <p>GETパラメータにcustomerIdが存在しない場合</p>
         <p>顧客検索ボタンを表示し、押下でS103_1 顧客一覧をPOPUP表示</p>
-        <p>当画面に戻ってきた際、顧客取得APIを実行</p>
+        <p>当画面に戻ってきた際、顧客APIを実行</p>
       </td>
     </tr>
     <tr>
@@ -167,4 +167,6 @@ customerSearch
 | 4 | 問合メールアドレス | email |
 {% endtab %}
 {% endtabs %}
+
+
 

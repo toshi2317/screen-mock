@@ -1,5 +1,7 @@
 # S103\_3 顧客編集
 
+
+
 ### 顧客情報部
 
 {% tabs %}
@@ -127,6 +129,21 @@
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 1 | ID | customerId |
+
+#### セット内容
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+|  |  | customerId |
+|  |  | name |
+|  |  | kana |
+|  |  | tel |
+|  |  | staffName |
+|  |  | email |
+|  |  | zip |
+|  |  | address1 |
+|  |  | address2 |
+|  |  | disableFlag |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -195,7 +212,7 @@
 | 7 | 郵便番号 | zip |
 | 8 | 都道府県 | address1 |
 | 9 | 住所 | address2 |
-| 10 | 無効フラグ | desableFlag |
+| 10 | 無効フラグ | disableFlag |
 | - | ユーザID | userId |
 {% endtab %}
 

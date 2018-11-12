@@ -181,7 +181,7 @@ locationSave
 | 6 | 郵便番号 | zip |
 | 7 | 都道府県 | address1 |
 | 8 | 住所 | address2 |
-| 9 | 無効フラグ | desableFlag |
+| 9 | 無効フラグ | disableFlag |
 | - | ユーザID | userId |
 {% endtab %}
 

@@ -272,7 +272,7 @@
 | 15 | 郵便番号 | zip |
 | 16 | 都道府県 | address1 |
 | 17 | 住所 | address2 |
-| 18 | 無効フラグ | desableFlag |
+| 18 | 無効フラグ | disableFlag |
 {% endtab %}
 {% endtabs %}
 
