@@ -18,3 +18,9 @@ S104\_1 納品先登録
 
 S104\_2 納品先編集
 
+[https://briswell.gitbook.io/project/location/s1042-pin-xian-ji](https://briswell.gitbook.io/project/location/s1042-pin-xian-ji)
+
+S105\_1 請求先登録
+
+
+
