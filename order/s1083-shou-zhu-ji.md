@@ -1,6 +1,6 @@
-# S107\_3 見積編集
+# S108\_3 受注編集
 
-### 見積情報部
+### **受注情報部**
 
 {% tabs %}
 {% tab title="項目制御" %}
@@ -10,7 +10,7 @@
       <th style="text-align:left">No</th>
       <th style="text-align:left">名称</th>
       <th style="text-align:left">
-        <p>更新</p>
+        <p></p>
         <p>表示</p>
       </th>
       <th style="text-align:left">部品種類</th>
@@ -81,7 +81,7 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">list</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">50</td>
     </tr>
     <tr>
       <td style="text-align:left">9</td>
@@ -109,15 +109,15 @@
     </tr>
     <tr>
       <td style="text-align:left">12</td>
-      <td style="text-align:left">見積日</td>
+      <td style="text-align:left">見積ID</td>
       <td style="text-align:left">更新</td>
-      <td style="text-align:left">date</td>
+      <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">13</td>
-      <td style="text-align:left">見積有効期限</td>
+      <td style="text-align:left">受注日</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">date</td>
       <td style="text-align:left"></td>
@@ -125,9 +125,41 @@
     </tr>
     <tr>
       <td style="text-align:left">14</td>
-      <td style="text-align:left">納品予定日</td>
+      <td style="text-align:left">納品日</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">date</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">15</td>
+      <td style="text-align:left">契約金額</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">16</td>
+      <td style="text-align:left">区分</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">check</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">17</td>
+      <td style="text-align:left">保存</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">18</td>
+      <td style="text-align:left">戻る</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
@@ -136,19 +168,19 @@
 {% endtab %}
 
 {% tab title="起動時API" %}
-#### 使用API①
+**使用API**
 
-quotationDetailSearch
-
-| No | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 1 | ID | quotationId |
-
-#### セット内容（見積明細は見積明細部に記載）
+**orderSearch**
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | ID | quotationId |
+| 1 | ID | orderId |
+
+**セット内容**
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | orderId |
 | 2 | 顧客名 | customerName |
 | 3 | ふりがな | customerKana |
 | 4 | 電話番号 | customerTel |
@@ -159,9 +191,11 @@ quotationDetailSearch
 | 9 | 住所 | customerAddress2 |
 | 10 | 納品先 | locationId |
 | 11 | 請求先 | billingId |
-| 12 | 見積日 | quotationDate |
-| 13 | 見積有効期限 | quotationExpirationDate |
-| 14 | 納品予定日 | deliveryDate |
+| 12 | 見積先 | quotationId |
+| 13 | 受注日 | orderDate |
+| 14 | 納品日 | deliveryDate |
+| 15 | 契約金額 | contractAmount |
+| 16 | 区分 | type |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -197,22 +231,38 @@ quotationDetailSearch
         <p>存在しない場合はデフォルト無し</p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">17</td>
+      <td style="text-align:left">保存</td>
+      <td style="text-align:left">
+        <p>保存APIを実行</p>
+        <p>・失敗した場合、当画面に止まり、APIから返却された</p>
+        <p>エラーメッセージを表示する</p>
+        <p>・成功した場合、保存されましたメッセージ表示</p>
+        <p>・保存されましたメッセージ表示後、S108_3 受注編集画面へ遷移する</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">18</td>
+      <td style="text-align:left">戻る</td>
+      <td style="text-align:left">前の画面に戻る</td>
+    </tr>
   </tbody>
 </table>
 {% endtab %}
 
 {% tab title="納品先API" %}
-#### 使用API
+**使用API**
 
 **locationSearch**
 
-| **No** | 名称 | パラメータ名 |
+| No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 2 | 顧客名 | customerId |
 {% endtab %}
 
 {% tab title="請求先API" %}
-#### 使用API
+#### 使用API <a id="shi-yong-api-2"></a>
 
 **billingSearch**
 
@@ -225,7 +275,8 @@ quotationDetailSearch
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">No</th>
+      <th style="text-align:left"><b>No</b>
+      </th>
       <th style="text-align:left">名称</th>
       <th style="text-align:left">タイミング</th>
       <th style="text-align:left">API</th>
@@ -246,162 +297,14 @@ quotationDetailSearch
   </tbody>
 </table>
 {% endtab %}
-{% endtabs %}
-
-### 見積明細ヘッダー部
-
-{% tabs %}
-{% tab title="項目制御" %}
-| No | 名称 |
-| :--- | :--- |
-| 15 | 明細追加 |
-| 16 | 明細削除 |
-{% endtab %}
-
-{% tab title="詳細仕様" %}
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">15</td>
-      <td style="text-align:left">明細追加</td>
-      <td style="text-align:left">見積明細部、一番下に1行明細を追加する</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">16</td>
-      <td style="text-align:left">名作削除</td>
-      <td style="text-align:left">
-        <p>確認ダイアログを表示し、見積明細部、チェック = ON</p>
-        <p>の行を削除する</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-{% endtab %}
-{% endtabs %}
-
-### 見積明細部
-
-{% tabs %}
-{% tab title="項目制御" %}
-| No | 名称 |
-| :--- | :--- |
-| 17 | チェック |
-| 18 | No |
-| 19 | 題名 |
-| 20 | 詳細 |
-| 21 | 単価 |
-| 22 | 数量 |
-| 23 | 金額 |
-{% endtab %}
-
-{% tab title="起動時API" %}
-#### 使用APIは見積情報部に記載済み
-
-| No | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 17 | 題名 | title |
-| 18 | 内容 | contents |
-| 19 | 単価 | unitPrice |
-| 20 | 数量 | count |
-| 21 | 金額 | amount |
-{% endtab %}
-
-{% tab title="詳細仕様" %}
-| No | 名称 | 表示条件/仕様 |
-| :--- | :--- | :--- |
-| 18 | No | 画面上の連番 |
-| 23 | 金額 | 単価 \* 数量 |
-{% endtab %}
-{% endtabs %}
-
-### 見積明細フッダー部
-
-{% tabs %}
-{% tab title="項目制御" %}
-| No | 名称 |
-| :--- | :--- |
-| 24 | 税抜金額 |
-| 25 | 消費税率 |
-| 26 | 消費税額 |
-| 27 | 税込金額 |
-{% endtab %}
-
-{% tab title="起動時API" %}
-#### 使用APIは見積情報部に記載済み
-
-| No | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 24 | 税抜金額 | amount |
-| 25 | 消費税率 | taxRate |
-| 26 | 消費税額 | tax |
-| 27 | 税込金額 | totalAmount |
-{% endtab %}
-
-{% tab title="詳細仕様" %}
-| No | 名称 | 表示条件/仕様 |
-| :--- | :--- | :--- |
-| 24 | 税抜金額 | 見積明細部、金額の合計値 |
-| 25 | 消費税率 | 画面上非表示、消費税率の取得方法は共通設計書参照 |
-| 26 | 消費税額 | 税抜金額 \* 消費税率 |
-| 27 | 税込金額 | 税抜金額 + 消費税額 |
-{% endtab %}
-{% endtabs %}
-
-### ボタン部
-
-{% tabs %}
-{% tab title="項目制御" %}
-| No | 名称 |
-| :--- | :--- |
-| 28 | 保存 |
-| 29 | 戻る |
-{% endtab %}
-
-{% tab title="詳細仕様" %}
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">28</td>
-      <td style="text-align:left">保存</td>
-      <td style="text-align:left">
-        <p>保存APIを実行</p>
-        <p>・失敗した場合、当画面に止まり、APIから返却された</p>
-        <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、保存されましたメッセージ表示</p>
-        <p>・保存されましたメッセージ表示後、S107_3 見積編集画面へ遷移する</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">29</td>
-      <td style="text-align:left">戻る</td>
-      <td style="text-align:left">前の画面に戻る</td>
-    </tr>
-  </tbody>
-</table>
-{% endtab %}
 
 {% tab title="保存API" %}
-#### 使用API
+**使用API**
 
-**quotationSave**
+**orderSave**
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | ID | quotationId |
 | 2 | 顧客名 | customerId |
 | 2 | 顧客名 | customerName |
 | 3 | ふりがな | customerKana |
@@ -413,38 +316,26 @@ quotationDetailSearch
 | 9 | 住所 | customerAddress2 |
 | 10 | 納品先 | locationId |
 | 11 | 請求先 | billinbId |
-| 12 | 見積日 | quotationDate |
-| 13 | 見積有効期限 | quotationExpirationDate |
-| 14 | 納品予定日 | deliveryDate |
-| 25 | 消費税率 | taxRate |
-| 24 | 税抜合計 | amount |
-| 26 | 消費税額 | tax |
-| 27 | 税込金額 | totalAmount |
-| - | 見積明細数 | detailCount |
-
-#### 見積明細（見積 1 に対して 見積明細 N）
-
-| No | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 19 | 題名 | title |
-| 20 | 詳細 | contents |
-| 21 | 単価 | unitPrice |
-| 22 | 数量 | count |
-| 23 | 金額 | amount |
+| 12 | 見積ID | quotationId |
+| 13 | 受注日 | orderDate |
+| 14 | 納品日 | deliveryDate |
+| 15 | 契約金額 | contractAmount |
+| 16 | 区分 | types |
 {% endtab %}
 {% endtabs %}
 
-### **受注情報ボタン部**
+### **売上情報ボタン部**
 
 {% tabs %}
 {% tab title="項目制御" %}
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">No</th>
+      <th style="text-align:left"><b>No</b>
+      </th>
       <th style="text-align:left">名称</th>
       <th style="text-align:left">
-        <p>​</p>
+        <p></p>
         <p>表示</p>
       </th>
       <th style="text-align:left">部品種類</th>
@@ -452,7 +343,7 @@ quotationDetailSearch
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">30</td>
+      <td style="text-align:left">19</td>
       <td style="text-align:left">新規登録</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
@@ -464,8 +355,8 @@ quotationDetailSearch
 {% tab title="詳細仕様" %}
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
-| 30 | 新規登録 | 押下でS108\_1 受注登録画面へ遷移 |
-| 30 | 新規登録 | 遷移時、customerIdをGETパラメータにセットする |
+| 19 | 新規登録 | 押下でS109\_2登録画面へ遷移 |
+| 19 | 新規登録 | 遷移時、customerIdをGETパラメータにセットする |
 {% endtab %}
 {% endtabs %}
 
@@ -487,49 +378,31 @@ quotationDetailSearch
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">31</td>
+      <td style="text-align:left">20</td>
       <td style="text-align:left">ID</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
-      <td style="text-align:left">32</td>
-      <td style="text-align:left">顧客ID</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">textlink</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">33</td>
-      <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">21</td>
+      <td style="text-align:left">請求日</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">34</td>
-      <td style="text-align:left">電話番号</td>
+      <td style="text-align:left">22</td>
+      <td style="text-align:left">支払期限日</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">35</td>
-      <td style="text-align:left">メールアドレス</td>
+      <td style="text-align:left">23</td>
+      <td style="text-align:left">税込金額</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">36</td>
-      <td style="text-align:left">受注日</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">text</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">37</td>
-      <td style="text-align:left">契約金額</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">text</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">38</td>
+      <td style="text-align:left">24</td>
       <td style="text-align:left">区分</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
@@ -539,34 +412,29 @@ quotationDetailSearch
 {% endtab %}
 
 {% tab title="起動時API" %}
-#### 使用API <a id="shi-yong-api-6"></a>
+**使用API**
 
-**orderSearch**  
-
+**salesSearch**
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 31 | ID | orderId |
+| 20 | ID | salesId |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
-| No | 名称 | 表示条件/仕様 |
+| No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 31 | ID | 押下でS108\_3受注編集画面を別タブ起動する |
-| 32 | 顧客ID | 押下でS103\_3顧客編集画面を別タブ起動する |
+| 20 | ID | 押下でS109\_3 売上編集画面を別タブ起動 |
 {% endtab %}
 
 {% tab title="表示パラメータ名" %}
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 31 | ID | orderId |
-| 32 | 顧客ID | customerId |
-| 33 | 顧客名 | customerName |
-| 34 | 電話番号 | customerTel |
-| 35 | メールアドレス | customerEmail |
-| 36 | 受注日 | orderDate |
-| 37 | 契約金額 | contractAmount |
-| 38 | 区分 | types |
+| 20 | ID | salesId |
+| 21 | 請求日 | billingDate |
+| 22 | 支払期限日 | paymentDate |
+| 23 | 税込金額 | amount |
+| 24 | 区分 | types |
 {% endtab %}
 {% endtabs %}
 

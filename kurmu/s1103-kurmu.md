@@ -1,6 +1,6 @@
-# S106\_2 問合履歴登録
+# S110\_3 クレーム編集
 
-### 問合履歴情報部
+### クレーム情報部
 
 {% tabs %}
 {% tab title="項目制御" %}
@@ -10,7 +10,7 @@
       <th style="text-align:left">No</th>
       <th style="text-align:left">名称</th>
       <th style="text-align:left">
-        <p>更新</p>
+        <p></p>
         <p>表示</p>
       </th>
       <th style="text-align:left">部品種類</th>
@@ -21,7 +21,7 @@
   <tbody>
     <tr>
       <td style="text-align:left">1</td>
-      <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">ID</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left">Y</td>
@@ -29,46 +29,38 @@
     </tr>
     <tr>
       <td style="text-align:left">2</td>
-      <td style="text-align:left">問合担当者</td>
+      <td style="text-align:left">顧客名</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
+      <td style="text-align:left">Y</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">50</td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">問合電話番号</td>
+      <td style="text-align:left">受注先</td>
       <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
+      <td style="text-align:left">list</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">100</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
-      <td style="text-align:left">問合メールアドレス</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">100</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5</td>
-      <td style="text-align:left">問合題名</td>
+      <td style="text-align:left">題名</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">200</td>
     </tr>
     <tr>
-      <td style="text-align:left">6</td>
-      <td style="text-align:left">問合内容</td>
+      <td style="text-align:left">5</td>
+      <td style="text-align:left">内容</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">textarea</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">1000</td>
     </tr>
     <tr>
-      <td style="text-align:left">7</td>
+      <td style="text-align:left">6</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
@@ -76,7 +68,7 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">7</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
@@ -85,6 +77,26 @@
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+**使用API**
+
+**claimSearch**
+
+| No |  | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | claimId |
+
+**セット内容**
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | ID | claimId |
+| 2 | 顧客名 | customerName |
+| 3 | 受注先 | orderId |
+| 4 | 題名 | title |
+| 5 | 内容 | contents |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -98,35 +110,32 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">1</td>
+      <td style="text-align:left">2</td>
       <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">customerIdから[customerId - name]を表示</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">受注先</td>
       <td style="text-align:left">
-        <p>GETパラメータにcustomerIdが存在する場合、顧客APIを実行</p>
-        <p>customerIdから[customerId - name]を表示</p>
+        <p>画面起動時に納品先APIを実行</p>
+        <p>返却値に現在のlocationIdが存在する場合はデフォルトセット</p>
+        <p>存在しない場合はデフォルト無し</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">
-        <p>GETパラメータにcustomerIdが存在しない場合</p>
-        <p>顧客検索ボタンを表示し、押下でS103_1 顧客一覧をPOPUP表示</p>
-        <p>当画面に戻ってきた際、顧客APIを実行</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">7</td>
+      <td style="text-align:left">6</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
         <p>保存APIを実行</p>
         <p>・失敗した場合、当画面に止まり、APIから返却された</p>
         <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、登録完了しましたメッセージ表示</p>
-        <p>・登録完了しましたメッセージ表示後、S106_3 問合履歴編集画面へ遷移する</p>
+        <p>・成功した場合、保存されましたメッセージ表示</p>
+        <p>・保存されましたメッセージ表示後、S110_3 クレーム編集画面へ遷移する</p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">7</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">前の画面に戻る</td>
     </tr>
@@ -135,38 +144,18 @@
 {% endtab %}
 
 {% tab title="保存API" %}
-#### 使用API
+#### 使用API <a id="shi-yong-api-1"></a>
 
-**inquirySave**
-
-| **No** | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
-| 2 | 問合担当者 | staff |
-| 3 | 問合電話番号 | tel |
-| 4 | 問合メールアドレス | email |
-| 5 | 問合題名 | title |
-| 6 | 問合内容 | contents |
-{% endtab %}
-
-{% tab title="顧客API" %}
-#### 使用API
-
-customerSearch
+**claimSave**
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
-
-#### セット内容
-
-| No | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 2 | 問合担当者 | staffName |
-| 3 | 問合電話番号 | tel |
-| 4 | 問合メールアドレス | email |
+| 1 | ID | claimId |
+| 2 | 顧客名 | customerId |
+| 2 | 顧客名 | customerName |
+| 3 | 受注先 | orderId |
+| 4 | 題名 | title |
+| 5 | 内容 | contents |
 {% endtab %}
 {% endtabs %}
-
-
 
