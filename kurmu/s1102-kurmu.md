@@ -6,12 +6,13 @@
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 | 必須 | 文字数 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | 顧客名 | 表示 | text | Y |  |
-| 2 | 受注先 | 更新 | list |  |  |
-| 3 | 題名 | 更新 | text |  | 200 |
-| 4 | 内容 | 更新 | textarea |  | 1000 |
-| 5 | 保存 | 表示 | button |  |  |
-| 6 | 戻る | 表示 | button |  |  |
+| 1 |  | 表示 | button | Y |  |
+| 2 | 顧客名 | 表示 | text | Y |  |
+| 3 | 受注先 | 更新 | list |  |  |
+| 4 | 題名 | 更新 | text |  | 200 |
+| 5 | 内容 | 更新 | textarea |  | 1000 |
+| 6 | 保存 | 表示 | button |  |  |
+| 7 | 戻る | 表示 | button |  |  |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -26,28 +27,30 @@
   <tbody>
     <tr>
       <td style="text-align:left">1</td>
-      <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">
-        <p>GETパラメータにcustomerIdが存在する場合、顧客APIを実行</p>
-        <p>customerIdから[customerId - name]を表示</p>
-      </td>
+      <td style="text-align:left">顧客検索</td>
+      <td style="text-align:left">GETパラメータにcustomerIdが存在する場合、顧客API、受注先APIを実行</td>
     </tr>
     <tr>
       <td style="text-align:left">1</td>
-      <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">顧客検索</td>
       <td style="text-align:left">
         <p>GETパラメータにcustomerIdが存在しない場合</p>
         <p>顧客検索ボタンを表示し、押下でS103_1 顧客一覧をPOPUP表示</p>
-        <p>当画面に戻ってきた際、顧客APIを実行</p>
+        <p>当画面に戻ってきた際、顧客API、受注先APIを実行</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">2</td>
+      <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">選択されている顧客の[customerId - name]を表示</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
       <td style="text-align:left">受注先</td>
       <td style="text-align:left">受注先APIの結果[orderId - name]をリスト表示</td>
     </tr>
     <tr>
-      <td style="text-align:left">5</td>
+      <td style="text-align:left">6</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
         <p>保存APIを実行</p>
@@ -58,7 +61,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">6</td>
+      <td style="text-align:left">7</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">前の画面に戻る</td>
     </tr>
@@ -73,10 +76,10 @@
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
-| 2 | 受注先 | orderId |
-| 3 | 題名 | title |
-| 4 | 内容 | contents  |
+| 2 | 顧客名 | customerId |
+| 3 | 受注先 | orderId |
+| 4 | 題名 | title |
+| 5 | 内容 | contents  |
 {% endtab %}
 
 {% tab title="顧客API" %}
@@ -86,14 +89,14 @@
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
+| 2 | 顧客名 | customerId |
 
 **セット内容**
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
-| 1 | 顧客名 | customerName |
+| 2 | 顧客名 | customerId |
+| 2 | 顧客名 | customerName |
 {% endtab %}
 
 {% tab title="受注先API" %}
@@ -103,7 +106,7 @@
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
+| 2 | 顧客名 | customerId |
 {% endtab %}
 {% endtabs %}
 
