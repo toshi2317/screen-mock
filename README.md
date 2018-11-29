@@ -54,3 +54,33 @@ S107\_3 見積編集
 
 S108\_1 受注一覧
 
+[https://briswell.gitbook.io/project/order/s1081-shou-zhu-yi](https://briswell.gitbook.io/project/order/s1081-shou-zhu-yi)
+
+S108\_2 受注登録
+
+[https://briswell.gitbook.io/project/order/s1082-shou-zhu-deng](https://briswell.gitbook.io/project/order/s1082-shou-zhu-deng)
+
+S108\_3 受注編集
+
+[https://briswell.gitbook.io/project/order/s1083-shou-zhu-ji](https://briswell.gitbook.io/project/order/s1083-shou-zhu-ji)
+
+S109\_2 売上登録
+
+[https://briswell.gitbook.io/project/shang/s1092-shang-deng](https://briswell.gitbook.io/project/shang/s1092-shang-deng)
+
+S109\_3 売上編集
+
+[https://briswell.gitbook.io/project/shang/s1093-shang-ji](https://briswell.gitbook.io/project/shang/s1093-shang-ji)
+
+S110\_1 クレーム一覧
+
+[https://briswell.gitbook.io/project/kurmu/s1101-kurmu](https://briswell.gitbook.io/project/kurmu/s1101-kurmu)
+
+S110\_2 クレーム登録
+
+[https://briswell.gitbook.io/project/kurmu/s1102-kurmu](https://briswell.gitbook.io/project/kurmu/s1102-kurmu)
+
+S110\_3 クレーム編集
+
+[https://briswell.gitbook.io/project/kurmu/s1103-kurmu](https://briswell.gitbook.io/project/kurmu/s1103-kurmu)
+
