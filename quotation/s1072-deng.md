@@ -253,7 +253,7 @@
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 3 | 顧客名 | customerId |
+| 2 | 顧客名 | customerId |
 {% endtab %}
 
 {% tab title="その他API" %}
@@ -564,8 +564,8 @@
 | 12 | 見積日 | quotationDate |
 | 13 | 見積有効期限 | quotationExpirationDate |
 | 14 | 納品予定日 | deliveryDate |
-| 25 | 消費税率 | taxRate |
 | 24 | 税抜合計 | amount |
+| 25 | 消費税率 | taxRate |
 | 26 | 消費税額 | tax |
 | 27 | 税込金額 | totalAmount |
 | - | 見積明細数 | detailCount |
