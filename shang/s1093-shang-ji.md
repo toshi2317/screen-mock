@@ -4,143 +4,23 @@
 
 {% tabs %}
 {% tab title="項目制御" %}
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">
-        <p></p>
-        <p>表示</p>
-      </th>
-      <th style="text-align:left">部品種類</th>
-      <th style="text-align:left">必須</th>
-      <th style="text-align:left">文字数</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left">100</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left">ふりがな</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">200</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">電話番号</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">100</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5</td>
-      <td style="text-align:left">担当者</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">50</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">6</td>
-      <td style="text-align:left">メールアドレス</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">100</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">7</td>
-      <td style="text-align:left">郵便番号</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">8</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">8</td>
-      <td style="text-align:left">都道府県</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">list</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">9</td>
-      <td style="text-align:left">住所</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">300</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">10</td>
-      <td style="text-align:left">納品先</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">list</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">11</td>
-      <td style="text-align:left">請求先</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">list</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">12</td>
-      <td style="text-align:left">請求日</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">date</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">13</td>
-      <td style="text-align:left">支払期限日</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">date</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">14</td>
-      <td style="text-align:left">税抜金額</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">15</td>
-      <td style="text-align:left">区分</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">check</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+| No | 名称 | 更新/表示 | 部品種類 | 必須 | 文字数 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | ID | 表示 | text | Y |  |
+| 2 | 顧客名 | 更新 | text | Y | 100 |
+| 3 | ふりがな | 更新 | text |  | 200 |
+| 4 | 電話番号 | 更新 | text |  | 100 |
+| 5 | 担当者 | 更新 | text |  | 50 |
+| 6 | メールアドレス | 更新 | text |  | 100 |
+| 7 | 郵便番号 | 更新 | text |  | 8 |
+| 8 | 都道府県 | 更新 | list |  |  |
+| 9 | 住所 | 更新 | text |  | 300 |
+| 10 | 納品先 | 更新 | list |  |  |
+| 11 | 請求先 | 更新 | list |  |  |
+| 12 | 請求日 | 更新 | date |  |  |
+| 13 | 支払期限日 | 更新 | date |  |  |
+| 14 | 税抜金額 | 更新 | text |  |  |
+| 15 | 区分 | 更新 | check |  |  |
 {% endtab %}
 
 {% tab title="起動時API" %}
@@ -261,10 +141,10 @@
 
 {% tabs %}
 {% tab title="項目制御" %}
-| No | 名称 |  |  |
+| No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 16 | 明細追加 |  |  |
-| 17 | 明細削除 |  |  |
+| 16 | 明細追加 | 表示 | button |
+| 17 | 明細削除 | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -299,15 +179,15 @@
 
 {% tabs %}
 {% tab title="項目制御" %}
-| No | 名称 |
-| :--- | :--- |
-| 18 | チェック |
-| 19 | No |
-| 20 | 題名 |
-| 21 | 詳細 |
-| 22 | 単価 |
-| 23 | 数量 |
-| 24 | 金額 |
+| No | 名称 | 更新/表示 | 部品種類 |
+| :--- | :--- | :--- | :--- |
+| 18 | チェック | 更新 | check |
+| 19 | No | 表示 | text |
+| 20 | 題名 | 更新 | text |
+| 21 | 詳細 | 更新 | text |
+| 22 | 単価 | 更新 | text |
+| 23 | 数量 | 更新 | text |
+| 24 | 金額 | 表示 | text |
 {% endtab %}
 
 {% tab title="起動時API" %}
@@ -334,10 +214,10 @@
 
 {% tabs %}
 {% tab title="項目制御" %}
-| No | 名称 |
-| :--- | :--- |
-| 25 | 保存 |
-| 26 | 戻る |
+| No | 名称 | 更新/表示 | 部品種類 |
+| :--- | :--- | :--- | :--- |
+| 25 | 保存 | 表示 | button |
+| 26 | 戻る | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
