@@ -153,7 +153,7 @@
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">請求先名</td>
-      <td style="text-align:left">customerIdから[customerId - ame]を表示</td>
+      <td style="text-align:left">customerIdから[customerId - name]を表示</td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
