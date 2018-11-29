@@ -148,7 +148,17 @@
     <tr>
       <td style="text-align:left">2</td>
       <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">customerIdから[customerId - customerName]を表示</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">納品先名</td>
       <td style="text-align:left">customerIdから[customerId - name]を表示</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4</td>
+      <td style="text-align:left">ふりがな</td>
+      <td style="text-align:left">ひらがなのみ保存可能</td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
