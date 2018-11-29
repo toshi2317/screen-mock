@@ -4,79 +4,15 @@
 
 {% tabs %}
 {% tab title="項目制御" %}
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">
-        <p></p>
-        <p>表示</p>
-      </th>
-      <th style="text-align:left">部品種類</th>
-      <th style="text-align:left">必須</th>
-      <th style="text-align:left">文字数</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">1</td>
-      <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left">Y</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left">受注先</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">list</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">題名</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">text</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">200</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5</td>
-      <td style="text-align:left">内容</td>
-      <td style="text-align:left">更新</td>
-      <td style="text-align:left">textarea</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">1000</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">6</td>
-      <td style="text-align:left">保存</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">button</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">7</td>
-      <td style="text-align:left">戻る</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">button</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+| No | 名称 | 更新/表示 | 部品種類 | 必須 | 文字数 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | ID | 表示 | text | Y |  |
+| 2 | 顧客名 | 更新 | text | Y |  |
+| 3 | 受注先 | 更新 | list |  |  |
+| 4 | 題名 | 更新 | text |  | 200 |
+| 5 | 内容 | 更新 | textarea |  | 1000 |
+| 6 | 保存 | 表示 | button |  |  |
+| 7 | 戻る | 表示 | button |  |  |
 {% endtab %}
 
 {% tab title="起動時API" %}
@@ -84,7 +20,7 @@
 
 **claimSearch**
 
-| No |  | パラメータ名 |
+| No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 1 | ID | claimId |
 
