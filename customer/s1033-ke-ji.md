@@ -892,11 +892,11 @@
 {% tab title="表示パラメータ名" %}
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 45 | ID | quotationId |
+| 45 | ID | orderId |
 | 46 | 受注日 | orderDate |
 | 47 | 納品日 | deliveryDate |
 | 48 | 契約金額 | contractAmount |
-| 49 | 区分 | type |
+| 49 | 区分 | types |
 {% endtab %}
 {% endtabs %}
 
