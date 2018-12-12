@@ -275,6 +275,8 @@ orderserch
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
+| 14 | 受託 | sammaryContractAmount |
+| 15 | SES | sammaryContractAmount |
 | 16 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 {% endtabs %}
@@ -338,7 +340,9 @@ orderserch
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 16 | 受注金額 | sammaryContractAmount |
+| 18 | 受託 | sammaryContractAmount |
+| 19 | SES | sammaryContractAmount |
+| 20 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 {% endtabs %}
 
