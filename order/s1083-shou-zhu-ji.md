@@ -21,7 +21,7 @@
 | 13 | 受注日 | 更新 | date |  |  |
 | 14 | 納品日 | 更新 | date |  |  |
 | 15 | 契約金額 | 更新 | text |  |  |
-| 16 | 区分 | 更新 | check |  |  |
+| 16 | 区分 | 更新 | list |  |  |
 | 17 | 保存 | 表示 | button |  |  |
 | 18 | 戻る | 表示 | button |  |  |
 {% endtab %}
@@ -88,6 +88,15 @@
         <p>画面起動時に請求先APIを実行</p>
         <p>返却値に現在のlocationIdが存在する場合はデフォルトセット</p>
         <p>存在しない場合はデフォルト無し</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">16</td>
+      <td style="text-align:left">区分</td>
+      <td style="text-align:left">
+        <p>-</p>
+        <p>1.受託</p>
+        <p>2.SES リスト値表示</p>
       </td>
     </tr>
     <tr>

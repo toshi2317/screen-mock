@@ -143,7 +143,7 @@
       <td style="text-align:left">16</td>
       <td style="text-align:left">区分</td>
       <td style="text-align:left">更新</td>
-      <td style="text-align:left">check</td>
+      <td style="text-align:left">list</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
@@ -238,6 +238,15 @@
       <td style="text-align:left">15</td>
       <td style="text-align:left">契約金額</td>
       <td style="text-align:left">数値のみ保存可能</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">16</td>
+      <td style="text-align:left">区分</td>
+      <td style="text-align:left">
+        <p>-</p>
+        <p>1.受託</p>
+        <p>2.SES リスト値表示</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">17</td>
