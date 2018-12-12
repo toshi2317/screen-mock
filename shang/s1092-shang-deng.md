@@ -21,22 +21,80 @@
 | 11 | 請求日 | 更新 | date |  |  |
 | 12 | 支払期限日 | 更新 | date |  |  |
 | 13 | 税抜金額 | 更新 | text |  |  |
-| 14 | 区分 | 更新 | check |  |  |
+| 14 | 区分 | 更新 | list |  |  |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
-| No | 名称 | 表示条件/仕様 |
-| :--- | :--- | :--- |
-| 1 | 顧客名 | 選択されている顧客の\[customerId - name\]を表示 |
-| 2 | ふりがな | ひらがなのみ保存可能 |
-| 3 | 電話番号 | 数値のみ保存可能 |
-| 6 | 郵便番号 | 数値のみ保存可能 |
-| 6 | 郵便番号 | xxx-xxxx という形のみ許容 |
-| 9 | 納品先 | 納品先APIの結果\[locationId - name\]をリスト表示 |
-| 10 | 請求先 | 請求先APIの結果\[billingId - name\]をリスト表示 |
-| 11 | 請求日 | 当日を自動提案 |
-| 12 | 支払期限日 | 当日 + 1ヶ月の月末日を自動提案 |
-| 13 | 税抜金額 | 数値のみ保存可能 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">表示条件/仕様</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">選択されている顧客の[customerId - name]を表示</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">ふりがな</td>
+      <td style="text-align:left">ひらがなのみ保存可能</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">電話番号</td>
+      <td style="text-align:left">数値のみ保存可能</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">6</td>
+      <td style="text-align:left">郵便番号</td>
+      <td style="text-align:left">数値のみ保存可能</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">6</td>
+      <td style="text-align:left">郵便番号</td>
+      <td style="text-align:left">xxx-xxxx という形のみ許容</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">納品先</td>
+      <td style="text-align:left">納品先APIの結果[locationId - name]をリスト表示</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">請求先</td>
+      <td style="text-align:left">請求先APIの結果[billingId - name]をリスト表示</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
+      <td style="text-align:left">請求日</td>
+      <td style="text-align:left">当日を自動提案</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12</td>
+      <td style="text-align:left">支払期限日</td>
+      <td style="text-align:left">当日 + 1ヶ月の月末日を自動提案</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">13</td>
+      <td style="text-align:left">税抜金額</td>
+      <td style="text-align:left">数値のみ保存可能</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">14</td>
+      <td style="text-align:left">区分</td>
+      <td style="text-align:left">
+        <p>-</p>
+        <p>1.受託</p>
+        <p>2.SES リスト値表示</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 {% endtab %}
 
 {% tab title="顧客API" %}

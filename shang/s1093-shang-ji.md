@@ -20,7 +20,7 @@
 | 12 | 請求日 | 更新 | date |  |  |
 | 13 | 支払期限日 | 更新 | date |  |  |
 | 14 | 税抜金額 | 更新 | text |  |  |
-| 15 | 区分 | 更新 | check |  |  |
+| 15 | 区分 | 更新 | list |  |  |
 {% endtab %}
 
 {% tab title="起動時API" %}
@@ -84,6 +84,15 @@
         <p>画面起動時に請求先APIを実行</p>
         <p>返却値に現在のlocationIdが存在する場合はデフォルトセット</p>
         <p>存在しない場合はデフォルト無し</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">15</td>
+      <td style="text-align:left">区分</td>
+      <td style="text-align:left">
+        <p>-</p>
+        <p>1.受託</p>
+        <p>2.SES リスト値表示</p>
       </td>
     </tr>
   </tbody>
