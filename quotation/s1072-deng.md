@@ -469,12 +469,40 @@
 {% endtab %}
 
 {% tab title="詳細仕様" %}
-| No | 名称 | 表示条件/仕様 |
-| :--- | :--- | :--- |
-| 24 | 税抜金額 | 見積明細部、金額の合計値 |
-| 25 | 消費税率 | 画面上非表示、消費税率の取得方法は共通設計書参照 |
-| 26 | 消費税額 | 税抜金額 \* 消費税率 |
-| 27 | 税込金額 | 税抜金額 + 消費税額 |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">表示条件/仕様</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">24</td>
+      <td style="text-align:left">税抜金額</td>
+      <td style="text-align:left">見積明細部、金額の合計値</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">25</td>
+      <td style="text-align:left">消費税率</td>
+      <td style="text-align:left">
+        <p>画面上非表示、消費税率の取得方法は消費税率検索API参照</p>
+        <p>見積日を元にtax_rateを取得する</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">26</td>
+      <td style="text-align:left">消費税額</td>
+      <td style="text-align:left">税抜金額 * 消費税率</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">27</td>
+      <td style="text-align:left">税込金額</td>
+      <td style="text-align:left">税抜金額 + 消費税額</td>
+    </tr>
+  </tbody>
+</table>
 {% endtab %}
 {% endtabs %}
 

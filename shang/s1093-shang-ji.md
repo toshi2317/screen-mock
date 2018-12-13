@@ -19,8 +19,7 @@
 | 11 | 請求先 | 更新 | list |  |  |
 | 12 | 請求日 | 更新 | date |  |  |
 | 13 | 支払期限日 | 更新 | date |  |  |
-| 14 | 税抜金額 | 更新 | text |  |  |
-| 15 | 区分 | 更新 | list |  |  |
+| 14 | 区分 | 更新 | list |  |  |
 {% endtab %}
 
 {% tab title="起動時API" %}
@@ -49,8 +48,7 @@
 | 11 | 請求先 | billingId |
 | 12 | 請求日 | billingDate |
 | 13 | 支払期限日 | paymentDate |
-| 14 | 税抜金額 | amount |
-| 15 | 区分 | type |
+| 14 | 区分 | type |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -87,7 +85,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">15</td>
+      <td style="text-align:left">14</td>
       <td style="text-align:left">区分</td>
       <td style="text-align:left">
         <p>-</p>
@@ -152,8 +150,8 @@
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 16 | 明細追加 | 表示 | button |
-| 17 | 明細削除 | 表示 | button |
+| 15 | 明細追加 | 表示 | button |
+| 16 | 明細削除 | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -167,12 +165,12 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">16</td>
+      <td style="text-align:left">15</td>
       <td style="text-align:left">明細追加</td>
       <td style="text-align:left">見積明細部、一番下に1行明細を追加する</td>
     </tr>
     <tr>
-      <td style="text-align:left">17</td>
+      <td style="text-align:left">16</td>
       <td style="text-align:left">明細削除</td>
       <td style="text-align:left">
         <p>確認ダイアログを表示し、見積明細部、チェック = ON</p>
@@ -190,13 +188,13 @@
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 18 | チェック | 更新 | check |
-| 19 | No | 表示 | text |
-| 20 | 題名 | 更新 | text |
-| 21 | 詳細 | 更新 | text |
-| 22 | 単価 | 更新 | text |
-| 23 | 数量 | 更新 | text |
-| 24 | 金額 | 表示 | text |
+| 17 | チェック | 更新 | check |
+| 18 | No | 表示 | text |
+| 19 | 題名 | 更新 | text |
+| 20 | 詳細 | 更新 | text |
+| 21 | 単価 | 更新 | text |
+| 22 | 数量 | 更新 | text |
+| 23 | 金額 | 表示 | text |
 {% endtab %}
 
 {% tab title="起動時API" %}
@@ -214,8 +212,41 @@
 {% tab title="詳細仕様" %}
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
-| 19 | No | 画面上の連番 |
-| 24 | 金額 | 単価 \* 数量 |
+| 18 | No | 画面上の連番 |
+| 23 | 金額 | 単価 \* 数量 |
+{% endtab %}
+{% endtabs %}
+
+### 売上明細フッダー部
+
+{% tabs %}
+{% tab title="項目制御" %}
+| No | 名称 | 更新/表示 | 部品種類 |
+| :--- | :--- | :--- | :--- |
+| 24 | 税抜金額 | 表示 | text |
+| 25 | 消費税率 | 表示 | hidden |
+| 26 | 消費税額 | 表示 | text |
+| 27 | 税込金額 | 表示 | text |
+{% endtab %}
+
+{% tab title="起動時API" %}
+**使用APIは売上情報部に記載済み**
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 24 | 税抜金額 | amount |
+| 25 | 消費税率 | taxRate |
+| 26 | 消費税額 | tax |
+| 27 | 税込金額 | totalAmount |
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+| No | 名称 | 表示条件/仕様 |
+| :--- | :--- | :--- |
+| 24 | 税抜金額 | 売上明細部、金額の合計値 |
+| 25 | 消費税率 | 画面上非表示、登録時の値を使用、変更不可で変わることはなし |
+| 26 | 消費税額 | 税抜金額 \* 消費税率 |
+| 27 | 税込金額 | 税抜金額 + 消費税額 |
 {% endtab %}
 {% endtabs %}
 
@@ -225,8 +256,8 @@
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 25 | 保存 | 表示 | button |
-| 26 | 戻る | 表示 | button |
+| 24 | 保存 | 表示 | button |
+| 25 | 戻る | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -240,7 +271,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">25</td>
+      <td style="text-align:left">24</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
         <p>保存APIを実行</p>
@@ -251,7 +282,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">26</td>
+      <td style="text-align:left">25</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">前の画面に戻る</td>
     </tr>
@@ -280,19 +311,22 @@
 | 11 | 請求先 | billinbId |
 | 12 | 請求日 | billingDate |
 | 13 | 支払期限日 | paymentDate |
-| 14 | 税抜金額 | amount |
-| 15 | 区分 | types |
+| 24 | 税抜合計 | amount |
+| 25 | 消費税率 | taxRate |
+| 26 | 消費税額 | tax |
+| 27 | 税込金額 | totalAmount |
+| 14 | 区分 | types |
 | - | 売上明細数 | detailCount |
 
 **売上明細（売上 1 に対して 売上明細 N）**
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 20 | 題名 | title |
-| 21 | 詳細 | detail |
-| 22 | 単価 | unitPrice |
-| 23 | 数量 | count |
-| 24 | 金額 | amount |
+| 19 | 題名 | title |
+| 20 | 詳細 | detail |
+| 21 | 単価 | unitPrice |
+| 22 | 数量 | count |
+| 23 | 金額 | amount |
 {% endtab %}
 {% endtabs %}
 

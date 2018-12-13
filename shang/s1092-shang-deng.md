@@ -20,8 +20,7 @@
 | 10 | 請求先 | 更新 | list |  |  |
 | 11 | 請求日 | 更新 | date |  |  |
 | 12 | 支払期限日 | 更新 | date |  |  |
-| 13 | 税抜金額 | 更新 | text |  |  |
-| 14 | 区分 | 更新 | list |  |  |
+| 13 | 区分 | 更新 | list |  |  |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -81,11 +80,6 @@
     </tr>
     <tr>
       <td style="text-align:left">13</td>
-      <td style="text-align:left">税抜金額</td>
-      <td style="text-align:left">数値のみ保存可能</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">14</td>
       <td style="text-align:left">区分</td>
       <td style="text-align:left">
         <p>-</p>
@@ -174,8 +168,8 @@
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 15 | 明細追加 | 表示 | button |
-| 16 | 明細削除 | 表示 | button |
+| 14 | 明細追加 | 表示 | button |
+| 15 | 明細削除 | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -189,12 +183,12 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">15</td>
+      <td style="text-align:left">14</td>
       <td style="text-align:left">明細追加</td>
       <td style="text-align:left">見積明細部、一番下に1行明細を追加する</td>
     </tr>
     <tr>
-      <td style="text-align:left">16</td>
+      <td style="text-align:left">15</td>
       <td style="text-align:left">明細削除</td>
       <td style="text-align:left">
         <p>確認ダイアログを表示し、見積明細部、チェック = ON</p>
@@ -212,31 +206,33 @@
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 | 文字数 |
 | :--- | :--- | :--- | :--- | :--- |
-| 17 | チェック | 更新 | check |  |
-| 18 | No | 表示 | text |  |
-| 19 | 題名 | 更新 | text | 200 |
-| 20 | 詳細 | 更新 | text | 300 |
-| 21 | 単価 | 更新 | text |  |
-| 22 | 数量 | 更新 | text |  |
-| 23 | 金額 | 表示 | text |  |
+| 16 | チェック | 更新 | check |  |
+| 17 | No | 表示 | text |  |
+| 18 | 題名 | 更新 | text | 200 |
+| 19 | 詳細 | 更新 | text | 300 |
+| 20 | 単価 | 更新 | text |  |
+| 21 | 数量 | 更新 | text |  |
+| 22 | 金額 | 表示 | text |  |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
-| 18 | No | 画面上の連番 |
-| 23 | 金額 | 単価 \* 数量 |
+| 17 | No | 画面上の連番 |
+| 22 | 金額 | 単価 \* 数量 |
 {% endtab %}
 {% endtabs %}
 
-### ボタン部
+### 売上明細フッダー部
 
 {% tabs %}
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 24 | 保存 | 表示 | button |
-| 25 | 戻る | 表示 | button |
+| 23 | 税抜金額 | 表示 | text |
+| 24 | 消費税率 | 表示 | hidden |
+| 25 | 消費税額 | 表示 | text |
+| 26 | 税込金額 | 表示 | text |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -250,7 +246,55 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">23</td>
+      <td style="text-align:left">税抜金額</td>
+      <td style="text-align:left">売上明細部、金額の合計値</td>
+    </tr>
+    <tr>
       <td style="text-align:left">24</td>
+      <td style="text-align:left">消費税率</td>
+      <td style="text-align:left">
+        <p>画面上非表示、消費税率の取得方法は消費税率検索API参照</p>
+        <p>請求日を元にtax_rateを取得する</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">25</td>
+      <td style="text-align:left">消費税額</td>
+      <td style="text-align:left">税抜金額 * 消費税率</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">26</td>
+      <td style="text-align:left">税込金額</td>
+      <td style="text-align:left">税抜金額 + 消費税額</td>
+    </tr>
+  </tbody>
+</table>
+{% endtab %}
+{% endtabs %}
+
+### ボタン部
+
+{% tabs %}
+{% tab title="項目制御" %}
+| No | 名称 | 更新/表示 | 部品種類 |
+| :--- | :--- | :--- | :--- |
+| 27 | 保存 | 表示 | button |
+| 28 | 戻る | 表示 | button |
+{% endtab %}
+
+{% tab title="詳細仕様" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">No</th>
+      <th style="text-align:left">名称</th>
+      <th style="text-align:left">表示条件/仕様</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">27</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
         <p>保存APIを実行</p>
@@ -261,7 +305,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">25</td>
+      <td style="text-align:left">28</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">前の画面に戻る</td>
     </tr>
@@ -291,8 +335,11 @@
 | 10 | 請求先 | billinbId |
 | 11 | 請求日 | billingDate |
 | 12 | 支払期限日 | paymentDate |
-| 13 | 税抜金額 | amount |
-| 14 | 区分 | types |
+| 23 | 税抜合計 | amount |
+| 24 | 消費税率 | taxRate |
+| 25 | 消費税額 | tax |
+| 26 | 税込金額 | totalAmount |
+| 13 | 区分 | types |
 | - | 売上明細数 | detailCount |
 
 **売上明細（売上 1 に対して 売上明細 N）**
