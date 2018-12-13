@@ -124,14 +124,30 @@
       <td style="text-align:left">数値のみ保存可能</td>
     </tr>
     <tr>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">6</td>
       <td style="text-align:left">郵便番号</td>
       <td style="text-align:left">数値のみ保存可能</td>
     </tr>
     <tr>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">6</td>
       <td style="text-align:left">郵便番号</td>
       <td style="text-align:left">xxx-xxxx という形のみ許容</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">都道府県</td>
+      <td style="text-align:left">
+        <p>入力した郵便番号から自動提案</p>
+        <p>変更不可</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">住所</td>
+      <td style="text-align:left">
+        <p>入力した郵便番号から自動提案</p>
+        <p>変更可</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">9</td>
@@ -183,7 +199,7 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">6</td>
       <td style="text-align:left">郵便番号</td>
       <td style="text-align:left">更新時</td>
       <td style="text-align:left">addressSearch</td>
