@@ -67,6 +67,22 @@
       <td style="text-align:left">customerIdから[customerId - name]を表示</td>
     </tr>
     <tr>
+      <td style="text-align:left">8</td>
+      <td style="text-align:left">都道府県</td>
+      <td style="text-align:left">
+        <p>入力した郵便番号から自動提案</p>
+        <p>変更不可</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">9</td>
+      <td style="text-align:left">住所</td>
+      <td style="text-align:left">
+        <p>入力した郵便番号から自動提案</p>
+        <p>変更可</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">10</td>
       <td style="text-align:left">納品先</td>
       <td style="text-align:left">
@@ -137,6 +153,7 @@
       <td style="text-align:left">
         <p>入力した郵便番号を[zipCode]にセットする</p>
         <p>返却された情報を元に[都道府県][住所]項目を更新する</p>
+        <p>検索結果が0件の場合、バリデーションNG</p>
       </td>
     </tr>
   </tbody>
