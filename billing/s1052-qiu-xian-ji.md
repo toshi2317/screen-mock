@@ -166,6 +166,16 @@
       <td style="text-align:left">xxx-xxxx という形のみ許容</td>
     </tr>
     <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">10</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
