@@ -71,7 +71,7 @@
       <td style="text-align:left">7</td>
       <td style="text-align:left">都道府県</td>
       <td style="text-align:left">更新</td>
-      <td style="text-align:left">list</td>
+      <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
