@@ -158,7 +158,7 @@
       <td style="text-align:left">1</td>
       <td style="text-align:left">顧客検索</td>
       <td style="text-align:left">
-        <p>押下でS103_1 顧客一覧をPOPUP表示</p>
+        <p>GETパラメータにcustomerIdが存在しない場合、顧客検索ボタン表示、押下でS103_1 顧客一覧をPOPUP表示</p>
         <p>当画面に戻ってきた際、</p>
         <p>顧客API、納品先API、請求先APIを実行</p>
       </td>
