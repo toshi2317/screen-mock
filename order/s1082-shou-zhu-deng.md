@@ -246,10 +246,15 @@
       <td style="text-align:left">xxx-xxxx という形のみ許容</td>
     </tr>
     <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">郵便番号</td>
+      <td style="text-align:left">GETパラメータにcustomerId or quotationIdで自動提案される</td>
+    </tr>
+    <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">都道府県</td>
       <td style="text-align:left">
-        <p>入力した郵便番号から自動提案</p>
+        <p>入力した郵便番号から自動提案 or GETパラメータにcustomerId or quotationIdで自動提案される</p>
         <p>変更不可</p>
       </td>
     </tr>
@@ -257,7 +262,7 @@
       <td style="text-align:left">9</td>
       <td style="text-align:left">住所</td>
       <td style="text-align:left">
-        <p>入力した郵便番号から自動提案</p>
+        <p>入力した郵便番号から自動提案 or GETパラメータにcustomerId or quotationIdで自動提案される</p>
         <p>変更可</p>
       </td>
     </tr>
@@ -272,7 +277,10 @@
     <tr>
       <td style="text-align:left">11</td>
       <td style="text-align:left">請求先</td>
-      <td style="text-align:left">請求先APIの結果[billingId - name]をリスト表示</td>
+      <td style="text-align:left">
+        <p>請求先APIの結果[billingId - name]をリスト表示</p>
+        <p>S107_3見積編集画面から遷移してきた場合見積APIの結果[ quotationId-billingId-name ]を表示</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">12</td>
