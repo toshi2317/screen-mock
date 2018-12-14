@@ -38,50 +38,14 @@
 
 {% tabs %}
 {% tab title="項目制御" %}
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">2</td>
-      <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">text</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left">電話番号</td>
-      <td style="text-align:left">text</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">メールアドレス</td>
-      <td style="text-align:left">text</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">5</td>
-      <td style="text-align:left">検索</td>
-      <td style="text-align:left">button</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">6</td>
-      <td style="text-align:left">クリア</td>
-      <td style="text-align:left">button</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">7</td>
-      <td style="text-align:left">CSV</td>
-      <td style="text-align:left">button</td>
-    </tr>
-  </tbody>
-</table>
+| No | 名称 | 更新/表示 | 部品種類 |
+| :--- | :--- | :--- | :--- |
+| 2 | 顧客名 | 更新 | text |
+| 3 | 電話番号 | 更新 | text |
+| 4 | メールアドレス | 更新 | text |
+| 5 | 検索 | 表示 | button |
+| 6 | クリア | 表示 | button |
+| 7 | CSV | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
