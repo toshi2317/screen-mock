@@ -199,8 +199,9 @@
       <td style="text-align:left">2</td>
       <td style="text-align:left">顧客名</td>
       <td style="text-align:left">
-        <p>選択されている顧客の[customerId - name]を表示　or</p>
+        <p>選択されている顧客の[customerId - name]を表示 or</p>
         <p>S107_3見積編集画面から遷移してきた場合、見積APIの結果[ quotationId- customerName]を表示</p>
+        <p>変更不可</p>
       </td>
     </tr>
     <tr>
