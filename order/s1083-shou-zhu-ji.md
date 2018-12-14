@@ -107,6 +107,14 @@
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">12</td>
+      <td style="text-align:left">見積ID</td>
+      <td style="text-align:left">
+        <p>見積ID = NULLの場合は当項目非表示</p>
+        <p>変更不可</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">16</td>
       <td style="text-align:left">区分</td>
       <td style="text-align:left">
