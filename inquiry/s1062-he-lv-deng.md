@@ -128,6 +128,11 @@
       <td style="text-align:left">customerIdから[customerId - name]を表示</td>
     </tr>
     <tr>
+      <td style="text-align:left">4</td>
+      <td style="text-align:left">問合電話番号</td>
+      <td style="text-align:left">数値のみ保存可</td>
+    </tr>
+    <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
