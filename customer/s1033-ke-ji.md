@@ -289,7 +289,7 @@
 {% tab title="詳細仕様" %}
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
-| 13 | 新規登録 | 押下でS103\_2 顧客登録画面へ遷移 |
+| 13 | 新規登録 | 押下でS104\_1 納品先登録画面へ遷移 |
 | 13 | 新規登録 | 遷移時、customerIdをGETパラメータにセットする |
 {% endtab %}
 {% endtabs %}
@@ -386,7 +386,7 @@
     <tr>
       <td style="text-align:left">14</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">押下でS105_2 請求先編集画面を別タブ起動</td>
+      <td style="text-align:left">押下でS104_2 納品先編集画面を別タブ起動</td>
     </tr>
     <tr>
       <td style="text-align:left">21</td>
