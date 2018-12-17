@@ -29,7 +29,7 @@
 {% tab title="起動時API" %}
 **使用API**
 
-**orderSearch**
+orderSearch
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
@@ -251,7 +251,7 @@
 {% tab title="起動時API" %}
 **使用API**
 
-**salesSearch**
+salesSearch
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
