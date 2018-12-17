@@ -141,30 +141,6 @@
 | 10 | 請求先 | billinbId |
 {% endtab %}
 
-{% tab title="顧客API" %}
-**使用API**
-
-**customerSearch**
-
-| No | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
-
-**セット内容**
-
-| No | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 1 | 顧客名 | customerId |
-| 1 | 顧客名 | name |
-| 2 | ふりがな | kana |
-| 3 | 電話番号 | tel |
-| 4 | 担当者 | staffName |
-| 5 | メールアドレス | email |
-| 6 | 郵便番号 | zip |
-| 7 | 都道府県 | address1 |
-| 8 | 住所 | address2 |
-{% endtab %}
-
 {% tab title="納品先API" %}
 #### 使用API <a id="shi-yong-api-1"></a>
 
