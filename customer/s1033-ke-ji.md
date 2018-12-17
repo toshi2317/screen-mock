@@ -370,7 +370,7 @@
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 1 | ID | **customerId** |
+| 1 | ID | customerId |
 {% endtab %}
 
 {% tab title="詳細仕様" %}

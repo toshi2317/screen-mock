@@ -34,6 +34,14 @@
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">-</td>
+      <td style="text-align:left">起動時API</td>
+      <td style="text-align:left">
+        <p>GETパラメータのorderIdからAPI叩かれて返却値</p>
+        <p>自動提案する</p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">顧客名</td>
       <td style="text-align:left">選択されている顧客の[customerId - name]を表示</td>
@@ -105,6 +113,32 @@
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+#### 使用API
+
+**orderSearch**
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| - | 受注ID | orderId |
+
+#### セット内容
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 1 | 顧客名 | customerId |
+| 1 | 顧客名 | customerName |
+| 2 | ふりがな | customerKana |
+| 3 | 電話番号 | customerTel |
+| 4 | 担当者 | customerStaffName |
+| 5 | メールアドレス | customerEmail |
+| 6 | 郵便番号 | customerZip |
+| 7 | 都道府県 | customerAddress1 |
+| 8 | 住所 | customerAddress2 |
+| 9 | 納品先 | locationId |
+| 10 | 請求先 | billinbId |
 {% endtab %}
 
 {% tab title="顧客API" %}

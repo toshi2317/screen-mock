@@ -200,8 +200,7 @@
       <td style="text-align:left">顧客名</td>
       <td style="text-align:left">
         <p>選択されている顧客の[customerId - name]を表示 or</p>
-        <p>S107_3見積編集画面から遷移してきた場合、見積APIの結果[ quotationId- customerName]を表示</p>
-        <p>変更不可</p>
+        <p>S107_3見積編集画面から遷移してきた場合、GETパラメータにquotationIdが存在する場合[ quotationId- customerName]を表示</p>
       </td>
     </tr>
     <tr>
@@ -365,11 +364,11 @@
 {% endtab %}
 
 {% tab title="見積API" %}
-**使用API**
+#### 使用API
 
-**quotationSearch**
+**quotationDetailSearch**
 
-| No |  | パラメータ名 |
+| No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 12 | 見積ID | quotationId |
 
@@ -377,6 +376,7 @@
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
+| 2 | 顧客名 | customerId |
 | 2 | 顧客名 | customerName |
 | 3 | ふりがな | customerKana |
 | 4 | 電話番号 | customerTel |
