@@ -102,7 +102,7 @@
 | 2 | 顧客名 | customerName |
 {% endtab %}
 
-{% tab title="受注先API" %}
+{% tab title="受注API" %}
 **使用API**
 
 **orderSearch**

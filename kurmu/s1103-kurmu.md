@@ -54,8 +54,8 @@
       <td style="text-align:left">3</td>
       <td style="text-align:left">受注先</td>
       <td style="text-align:left">
-        <p>画面起動時に納品先APIを実行</p>
-        <p>返却値に現在のlocationIdが存在する場合はデフォルトセット</p>
+        <p>画面起動時に受注APIを実行</p>
+        <p>返却値に現在のorderIdが存在する場合はデフォルトセット</p>
         <p>存在しない場合はデフォルト無し</p>
       </td>
     </tr>
@@ -77,6 +77,16 @@
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="受注API" %}
+**使用API**
+
+**orderSearch**
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 2 | 顧客名 | customerId |
 {% endtab %}
 
 {% tab title="保存API" %}
