@@ -389,6 +389,11 @@
       <td style="text-align:left">押下でS104_2 納品先編集画面を別タブ起動</td>
     </tr>
     <tr>
+      <td style="text-align:left">14</td>
+      <td style="text-align:left">ID</td>
+      <td style="text-align:left">遷移時</td>
+    </tr>
+    <tr>
       <td style="text-align:left">21</td>
       <td style="text-align:left">無効フラグ</td>
       <td style="text-align:left">
