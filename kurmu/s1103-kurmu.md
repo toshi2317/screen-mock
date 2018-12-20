@@ -8,7 +8,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | ID | 表示 | text | Y |  |
 | 2 | 顧客名 | 更新 | text | Y |  |
-| 3 | 受注ID | 更新 | text |  |  |
+| 3 | 受注ID | 表示 | text |  |  |
 | 4 | 題名 | 更新 | text |  | 200 |
 | 5 | 内容 | 更新 | textarea |  | 1000 |
 | 6 | 保存 | 表示 | button |  |  |
@@ -30,7 +30,7 @@
 | :--- | :--- | :--- |
 | 1 | ID | claimId |
 | 2 | 顧客名 | customerName |
-| 3 | 受注先 | orderId |
+| 3 | 受注ID | orderId |
 | 4 | 題名 | title |
 | 5 | 内容 | contents |
 {% endtab %}
