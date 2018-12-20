@@ -88,7 +88,7 @@
 | 1 | ID | claimId |
 | 2 | 顧客名 | customerId |
 | 2 | 顧客名 | customerName |
-| 3 | 受注先 | orderId |
+| 3 | 受注ID | orderId |
 | 4 | 題名 | title |
 | 5 | 内容 | contents |
 {% endtab %}
