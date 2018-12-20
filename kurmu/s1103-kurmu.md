@@ -8,7 +8,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | ID | 表示 | text | Y |  |
 | 2 | 顧客名 | 更新 | text | Y |  |
-| 3 | 受注先 | 更新 | list |  |  |
+| 3 | 受注ID | 更新 | text |  |  |
 | 4 | 題名 | 更新 | text |  | 200 |
 | 5 | 内容 | 更新 | textarea |  | 1000 |
 | 6 | 保存 | 表示 | button |  |  |
@@ -52,11 +52,10 @@
     </tr>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">受注先</td>
+      <td style="text-align:left">受注ID</td>
       <td style="text-align:left">
-        <p>画面起動時に受注APIを実行</p>
-        <p>返却値に現在のorderIdが存在する場合はデフォルトセット</p>
-        <p>存在しない場合はデフォルト無し</p>
+        <p>返却値にorderIdが存在する場合は表示</p>
+        <p>存在しない場合は当項目非表示</p>
       </td>
     </tr>
     <tr>
@@ -77,16 +76,6 @@
     </tr>
   </tbody>
 </table>
-{% endtab %}
-
-{% tab title="受注API" %}
-**使用API**
-
-**orderSearch**
-
-| **No** | 名称 | パラメータ名 |
-| :--- | :--- | :--- |
-| 2 | 顧客名 | customerId |
 {% endtab %}
 
 {% tab title="保存API" %}
