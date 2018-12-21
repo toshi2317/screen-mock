@@ -68,6 +68,11 @@ orderSearch
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">顧客名</td>
+      <td style="text-align:left">customerIdから[customerId - name]を表示</td>
+    </tr>
+    <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">都道府県</td>
       <td style="text-align:left">
