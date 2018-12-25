@@ -53,7 +53,5 @@
 
 ## メニュー
 
-* [メニュー](menu/meny.md)
-* [Untitled](menu/untitled.md)
-* [Untitled](menu/untitled-1.md)
+* [メニュー](menu/menu.md)
 
