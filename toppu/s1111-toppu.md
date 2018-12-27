@@ -75,10 +75,11 @@ quotationsummary
 {% tab title="表示API" %}
 #### 使用API
 
-quotationSearch
+quotationsummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
+| 2 | 見積日 | quotationDate |
 | 3 | 見積件数集計データ\(今週\) | summaryCount |
 | 4 | 見積件数集計データ\(先週\) | summaryCount |
 {% endtab %}
@@ -163,6 +164,7 @@ quotationSummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
+| 6 |  | quotationDate |
 | 7 | 見積金額集計データ\(今週\) | summaryAmount |
 | 8 | 見積金額集計データ\(先週\) | summaryAmount |
 {% endtab %}
@@ -231,11 +233,11 @@ quotationSummary
 {% tab title="起動時API" %}
 **使用API**
 
-orderSearch
+ordersummary
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 10 |  | orderDate |
+| 10 | 受注日 | orderDate |
 | 11 | 受注件数集計データ\(今週\) | dataCount |
 | 12 | 受注件数集計データ\(先週\) | dataCount |
 {% endtab %}
@@ -243,10 +245,11 @@ orderSearch
 {% tab title="表示API" %}
 #### 使用API
 
-orderserch
+ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
+| 10 |  | orderDate |
 | 11 | 受注件数集計データ\(今週\) | dataCount |
 | 12 | 受注件数集計データ\(先週\) | dataCount |
 {% endtab %}
@@ -307,7 +310,7 @@ orderserch
 {% tab title="起動時API" %}
 **使用API**
 
-orderSearch
+ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
@@ -322,11 +325,13 @@ orderSearch
 {% tab title="表示API" %}
 #### 使用API
 
-orderserch
+ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
+| 14 | 受託 | type |
 | 14 | 受託 | sammaryContractAmount |
+| 15 | SES | type |
 | 15 | SES | sammaryContractAmount |
 | 16 | 受注金額 | sammaryContractAmount |
 {% endtab %}
@@ -387,11 +392,11 @@ orderserch
 {% tab title="起動時API" %}
 **使用API**
 
-orderseach
+ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 13 |  | orderDate |
+| 13 | 受注日 | orderDate |
 | 14 | 受託 | types |
 | 14 | 受託 | sammaryContractAmount |
 | 15 | SES | types |
@@ -402,11 +407,13 @@ orderseach
 {% tab title="表示API" %}
 #### 使用API
 
-orderserch
+ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
+| 18 | 受託 | type |
 | 18 | 受託 | sammaryContractAmount |
+| 19 | SES | type |
 | 19 | SES | sammaryContractAmount |
 | 20 | 受注金額 | sammaryContractAmount |
 {% endtab %}
