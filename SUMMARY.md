@@ -51,6 +51,18 @@
 
 * [S111\_1 トップ](toppu/s1111-toppu.md)
 
+## 担当部署
+
+* [S112\_1 担当部署一覧](dan-dang-busyo/s1121-dan-dang-busyo.md)
+* [S112\_2 担当部署登録](dan-dang-busyo/s1122-dan-dang-busyo-deng.md)
+* [S112\_3 担当部署編集](dan-dang-busyo/s1123-dan-dang-busyo-ji.md)
+
+## 担当者
+
+* [S113\_1 担当者一覧](staff/s1131-staff-yi.md)
+* [S113\_2 担当者登録](staff/s1132-staff-deng.md)
+* [S113\_3 担当者編集](staff/s1133-staff-ji.md)
+
 ## メニュー
 
 * [メニュー](menu/menu.md)

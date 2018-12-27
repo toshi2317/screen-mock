@@ -60,6 +60,18 @@
 </table>
 {% endtab %}
 
+{% tab title="起動時API" %}
+**使用API**
+
+quotationSearch
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 2 | 見積日 | quotationDate |
+| 3 | 見積件数集計データ\(今週\) | dataCount |
+| 4 | 見積件数集計データ\(先週\) | dataCount |
+{% endtab %}
+
 {% tab title="表示API" %}
 #### 使用API
 
@@ -130,6 +142,18 @@ quotationSearch
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+**使用API**
+
+quotationSearch
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 6 | 見積日 | quotationDate |
+| 7 | 見積金額集計データ\(今週\) | summaryAmount |
+| 8 | 見積金額集計データ\(先週\) | summaryAmount |
 {% endtab %}
 
 {% tab title="表示API" %}
@@ -204,6 +228,18 @@ quotationSearch
 </table>
 {% endtab %}
 
+{% tab title="起動時API" %}
+**使用API**
+
+orderSearch
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 10 |  | orderDate |
+| 11 | 受注件数集計データ\(今週\) | dataCount |
+| 12 | 受注件数集計データ\(先週\) | dataCount |
+{% endtab %}
+
 {% tab title="表示API" %}
 #### 使用API
 
@@ -266,6 +302,21 @@ orderserch
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+**使用API**
+
+orderSearch
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 13 | 受注日 | orderDate |
+| 14 | 受託 | types |
+| 14 | 受託 | sammaryContractAmount |
+| 15 | SES | types |
+| 15 | SES | sammaryContractAmount |
+| 16 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 
 {% tab title="表示API" %}
@@ -331,6 +382,21 @@ orderserch
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="起動時API" %}
+**使用API**
+
+orderseach
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 13 |  | orderDate |
+| 14 | 受託 | types |
+| 14 | 受託 | sammaryContractAmount |
+| 15 | SES | types |
+| 15 | SES | sammaryContractAmount |
+| 16 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 
 {% tab title="表示API" %}
