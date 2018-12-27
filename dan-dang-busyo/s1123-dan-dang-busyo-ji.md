@@ -7,7 +7,7 @@
 | No | 名称 | 更新/表示 | 部品種類 | 必須 | 文字数 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | ID | 表示 | text | Y |  |
-| 2 | 担当部署 | 更新 | text | Y | 100 |
+| 2 | 担当部署名 | 更新 | text | Y | 100 |
 | 3 | 保存 | 表示 | button |  |  |
 | 4 | 戻る | 表示 | button |  |  |
 {% endtab %}
@@ -26,7 +26,7 @@
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 1 | ID | sectionId |
-| 2 | 担当部署 | sectionName |
+| 2 | 担当部署名 | sectionName |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -67,7 +67,7 @@
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 1 | ID | sectionId |
-| 2 | 担当部署 | sectionName |
+| 2 | 担当部署名 | sectionName |
 {% endtab %}
 {% endtabs %}
 
