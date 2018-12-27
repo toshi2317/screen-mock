@@ -44,7 +44,7 @@
       <td style="text-align:left">
         <p>当日の週の日毎の見積件数集計したもの赤でBar Chart表示</p>
         <p>マウスバーで件数表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日今週ででセットしてAPI叩いて出たdataCountの値</p>
+        <p>quotationDateFrom,quotationDateTo見積日今週ででセットしてAPI叩いて出たsummaryCountの値</p>
       </td>
     </tr>
     <tr>
@@ -53,7 +53,7 @@
       <td style="text-align:left">
         <p>先週の週の日毎の見積件数集計したものグレーでBar Chart表示</p>
         <p>マウスバーで件数表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日先週ででセットしてAPI叩いて出たdataCountの値</p>
+        <p>quotationDateFrom,quotationDateTo見積日先週ででセットしてAPI叩いて出たsummaryCountの値</p>
       </td>
     </tr>
   </tbody>
@@ -63,13 +63,13 @@
 {% tab title="起動時API" %}
 **使用API**
 
-quotationSearch
+quotationsummary
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 2 | 見積日 | quotationDate |
-| 3 | 見積件数集計データ\(今週\) | dataCount |
-| 4 | 見積件数集計データ\(先週\) | dataCount |
+| 3 | 見積件数集計データ\(今週\) | summaryCount |
+| 4 | 見積件数集計データ\(先週\) | summaryCount |
 {% endtab %}
 
 {% tab title="表示API" %}
@@ -79,8 +79,8 @@ quotationSearch
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 3 | 見積件数集計データ\(今週\) | dataCount |
-| 4 | 見積件数集計データ\(先週\) | dataCount |
+| 3 | 見積件数集計データ\(今週\) | summaryCount |
+| 4 | 見積件数集計データ\(先週\) | summaryCount |
 {% endtab %}
 {% endtabs %}
 
@@ -147,7 +147,7 @@ quotationSearch
 {% tab title="起動時API" %}
 **使用API**
 
-quotationSearch
+quotationSummary
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
@@ -159,7 +159,7 @@ quotationSearch
 {% tab title="表示API" %}
 #### 使用API
 
-quotationSearch
+quotationSummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
