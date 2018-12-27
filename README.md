@@ -88,6 +88,30 @@ S111\_1 トップ
 
 [https://briswell.gitbook.io/project/toppu/s1111-toppu](https://briswell.gitbook.io/project/toppu/s1111-toppu)
 
+S112\_1 担当部署一覧
+
+[https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/dan-dang-busyo/s1121-dan-dang-busyo](https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/dan-dang-busyo/s1121-dan-dang-busyo)
+
+S112\_2 担当部署登録
+
+[https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/dan-dang-busyo/s1122-dan-dang-busyo-deng](https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/dan-dang-busyo/s1122-dan-dang-busyo-deng)
+
+S112\_3 担当部署編集
+
+[https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/dan-dang-busyo/s1123-dan-dang-busyo-ji](https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/dan-dang-busyo/s1123-dan-dang-busyo-ji)
+
+S113\_1 担当者一覧
+
+[https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/staff/s1131-staff-yi](https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/staff/s1131-staff-yi)
+
+S113\_2 担当者登録
+
+[https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/staff/s1132-staff-deng](https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/staff/s1132-staff-deng)
+
+S113\_3 担当者編集
+
+[https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/staff/s1133-staff-ji](https://briswell.gitbook.io/project/~/edit/drafts/-LUi8babVstftlQRMyvg/staff/s1133-staff-ji)
+
 メニュー
 
 [https://briswell.gitbook.io/project/menu/menu](https://briswell.gitbook.io/project/menu/menu)
