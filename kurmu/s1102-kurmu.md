@@ -40,7 +40,7 @@
       <td style="text-align:left">
         <p>GETパラメータにcustomerIdが存在しない場合</p>
         <p>顧客検索ボタンを表示し、押下でS103_1 顧客一覧をPOPUP表示</p>
-        <p>当画面に戻ってきた際、顧客API、受注先APIを実行</p>
+        <p>当画面に戻ってきた際、顧客APIを実行</p>
       </td>
     </tr>
     <tr>
