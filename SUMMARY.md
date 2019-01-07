@@ -38,8 +38,9 @@
 
 ## 売上
 
-* [S109\_2 売上登録](shang/s1092-shang-deng.md)
-* [S109\_3 売上編集](shang/s1093-shang-ji.md)
+* [S109\_1 売上一覧](sales/s1091-shang-yi.md)
+* [S109\_2 売上登録](sales/s1092-shang-deng.md)
+* [S109\_3 売上編集](sales/s1093-shang-ji.md)
 
 ## クレーム
 

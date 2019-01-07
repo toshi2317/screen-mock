@@ -66,11 +66,11 @@ S108\_3 受注編集
 
 S109\_2 売上登録
 
-[https://briswell.gitbook.io/project/shang/s1092-shang-deng](https://briswell.gitbook.io/project/shang/s1092-shang-deng)
+[https://briswell.gitbook.io/project/~/edit/drafts/-LV\_f4YovDTq\_3toCnTZ/sales/s1092-shang-deng](https://briswell.gitbook.io/project/~/edit/drafts/-LV_f4YovDTq_3toCnTZ/sales/s1092-shang-deng)
 
 S109\_3 売上編集
 
-[https://briswell.gitbook.io/project/shang/s1093-shang-ji](https://briswell.gitbook.io/project/shang/s1093-shang-ji)
+[https://briswell.gitbook.io/project/~/edit/drafts/-LV\_f4YovDTq\_3toCnTZ/sales/s1093-shang-ji](https://briswell.gitbook.io/project/~/edit/drafts/-LV_f4YovDTq_3toCnTZ/sales/s1093-shang-ji)
 
 S110\_1 クレーム一覧
 
