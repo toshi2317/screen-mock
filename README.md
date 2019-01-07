@@ -64,6 +64,10 @@ S108\_3 受注編集
 
 [https://briswell.gitbook.io/project/order/s1083-shou-zhu-ji](https://briswell.gitbook.io/project/order/s1083-shou-zhu-ji)
 
+S109\_1 売上一覧
+
+[https://briswell.gitbook.io/project/~/edit/drafts/-LV\_uGUcx5F5mmf-IkE8/sales/s1091-shang-yi](https://briswell.gitbook.io/project/~/edit/drafts/-LV_uGUcx5F5mmf-IkE8/sales/s1091-shang-yi)
+
 S109\_2 売上登録
 
 [https://briswell.gitbook.io/project/~/edit/drafts/-LV\_f4YovDTq\_3toCnTZ/sales/s1092-shang-deng](https://briswell.gitbook.io/project/~/edit/drafts/-LV_f4YovDTq_3toCnTZ/sales/s1092-shang-deng)
