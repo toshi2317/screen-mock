@@ -54,7 +54,7 @@
   <tbody>
     <tr>
       <td style="text-align:left">2</td>
-      <td style="text-align:left">顧客id</td>
+      <td style="text-align:left">顧客ID</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">text</td>
     </tr>
