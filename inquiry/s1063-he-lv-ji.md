@@ -73,7 +73,7 @@
       <td style="text-align:left">更新</td>
       <td style="text-align:left">textarea</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">1000</td>
     </tr>
     <tr>
       <td style="text-align:left">8</td>
