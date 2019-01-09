@@ -90,8 +90,8 @@
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 2 | 顧客名 | customerName |
-| 3 | 電話番号 | customerTel |
-| 4 | メールアドレス | customerEmail |
+| 3 | 電話番号 | tel |
+| 4 | メールアドレス | email |
 {% endtab %}
 {% endtabs %}
 
