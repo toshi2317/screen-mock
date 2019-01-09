@@ -122,7 +122,7 @@
       <td style="text-align:left">9</td>
       <td style="text-align:left">顧客名</td>
       <td style="text-align:left">表示</td>
-      <td style="text-align:left">text</td>
+      <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">10</td>
@@ -156,6 +156,7 @@
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
 | 8 | ID | 押下でS106\_3 問合履歴編集画面を別タブ起動する |
+| 9 | 顧客名 | 押下でS103\_3 顧客編集画面を別タブ起動する |
 {% endtab %}
 
 {% tab title="表示API" %}
