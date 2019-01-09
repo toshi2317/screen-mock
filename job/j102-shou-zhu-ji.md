@@ -1,8 +1,8 @@
 # J102 受注集計
 
-orderDateFrom = 実行現在日付 - 7日
+orderDateFrom = 実行現在日付 - Job env設定に基づく日付
 
-orderDateTo = 実行現在日付 + 7日
+orderDateTo = 実行現在日付
 
 をセットしたorderSearchを実行
 
