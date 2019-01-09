@@ -249,7 +249,7 @@ ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 10 |  | orderDate |
+| 10 | 受注日 | orderDate |
 | 11 | 受注件数集計データ\(今週\) | dataCount |
 | 12 | 受注件数集計データ\(先週\) | dataCount |
 {% endtab %}
@@ -264,7 +264,8 @@ ordersummary
 | 13 | 受注日 | 表示 | text |
 | 14 | 受託 | 表示 | graph |
 | 15 | SES | 表示 | graph |
-| 16 | 受注金額 | 表示 | graph |
+| 16 | その他 | 表示 | graph |
+| 17 | 受注金額 | 表示 | graph |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -300,6 +301,14 @@ ordersummary
     </tr>
     <tr>
       <td style="text-align:left">16</td>
+      <td style="text-align:left">その他</td>
+      <td style="text-align:left">
+        <p>types=NULLの前月の受注金額集計額をオレンジでDonut Chart表示</p>
+        <p>type=NULL指定してAPI叩いて出た summaryCountractAmountの値</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">17</td>
       <td style="text-align:left">受注金額</td>
       <td style="text-align:left">マウスバーで色ごとの受注金額集計額、区分名表示</td>
     </tr>
@@ -319,7 +328,9 @@ ordersummary
 | 14 | 受託 | sammaryContractAmount |
 | 15 | SES | types |
 | 15 | SES | sammaryContractAmount |
-| 16 | 受注金額 | sammaryContractAmount |
+| 16 | その他 | types |
+| 16 | その他 | sammaryContractAmount |
+| 17 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 
 {% tab title="表示API" %}
@@ -329,11 +340,13 @@ ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 14 | 受託 | type |
+| 14 | 受託 | types |
 | 14 | 受託 | sammaryContractAmount |
-| 15 | SES | type |
+| 15 | SES | types |
 | 15 | SES | sammaryContractAmount |
-| 16 | 受注金額 | sammaryContractAmount |
+| 16 | その他 | types |
+| 16 | その他 | sammaryContractAmount |
+| 17 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 {% endtabs %}
 
@@ -343,10 +356,11 @@ ordersummary
 {% tab title="項目制御" %}
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 17 | 受注日 | 表示 | text |
-| 18 | 受託 | 表示 | graph |
-| 19 | SES | 表示 | graph |
-| 20 | 受注金額 | 表示 | graph |
+| 18 | 受注日 | 表示 | text |
+| 19 | 受託 | 表示 | graph |
+| 20 | SES | 表示 | graph |
+| 21 | その他 | 表示 | graph |
+| 22 | 受注金額 | 表示 | graph |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -360,12 +374,12 @@ ordersummary
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">17</td>
+      <td style="text-align:left">18</td>
       <td style="text-align:left">受注日</td>
       <td style="text-align:left">当月の月表示</td>
     </tr>
     <tr>
-      <td style="text-align:left">18</td>
+      <td style="text-align:left">19</td>
       <td style="text-align:left">受託</td>
       <td style="text-align:left">
         <p>types=1の当月の受注金額集計額を緑でDonut Chart表示</p>
@@ -373,7 +387,7 @@ ordersummary
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">19</td>
+      <td style="text-align:left">20</td>
       <td style="text-align:left">SES</td>
       <td style="text-align:left">
         <p>types=2の当月の受注金額集計額を青でDonut Chart表示</p>
@@ -381,7 +395,15 @@ ordersummary
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">20</td>
+      <td style="text-align:left">21</td>
+      <td style="text-align:left">その他</td>
+      <td style="text-align:left">
+        <p>types=NULLの当月の受注金額集計額をオレンジでDonut Chart表示</p>
+        <p>type=NULL指定してAPI叩いて summaryCountractAmountの値</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">22</td>
       <td style="text-align:left">受注金額</td>
       <td style="text-align:left">マウスバーで色ごとの受注金額集計額、区分名表示</td>
     </tr>
@@ -396,12 +418,14 @@ ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 13 | 受注日 | orderDate |
-| 14 | 受託 | types |
-| 14 | 受託 | sammaryContractAmount |
-| 15 | SES | types |
-| 15 | SES | sammaryContractAmount |
-| 16 | 受注金額 | sammaryContractAmount |
+| 18 | 受注日 | orderDate |
+| 19 | 受託 | types |
+| 19 | 受託 | sammaryContractAmount |
+| 20 | SES | types |
+| 20 | SES | sammaryContractAmount |
+| 21 | その他 | types |
+| 21 | その他 | sammaryContractAmount |
+| 22 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 
 {% tab title="表示API" %}
@@ -411,11 +435,13 @@ ordersummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 18 | 受託 | type |
-| 18 | 受託 | sammaryContractAmount |
-| 19 | SES | type |
-| 19 | SES | sammaryContractAmount |
-| 20 | 受注金額 | sammaryContractAmount |
+| 19 | 受託 | types |
+| 19 | 受託 | sammaryContractAmount |
+| 20 | SES | types |
+| 20 | SES | sammaryContractAmount |
+| 21 | その他 | types |
+| 21 | その他 | sammaryContractAmount |
+| 22 | 受注金額 | sammaryContractAmount |
 {% endtab %}
 {% endtabs %}
 
