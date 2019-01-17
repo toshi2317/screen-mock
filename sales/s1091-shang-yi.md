@@ -12,8 +12,8 @@
 | 4 | メールアドレス | 更新 | text |
 | 5 | 請求日\(From\) | 更新 | date |
 | 6 | 請求日\(To\) | 更新 | date |
-| 7 | 支払期限\(From\) | 更新 | date |
-| 8 | 支払期限\(To\) | 更新 | date |
+| 7 | 支払期限日\(From\) | 更新 | date |
+| 8 | 支払期限日\(To\) | 更新 | date |
 | 9 | 区分 | 更新 | check |
 | 10 | 検索 | 表示 | button |
 | 11 | クリア | 表示 | button |
@@ -67,8 +67,8 @@ salesSearch
 | 4 | メールアドレス | customerEmail |
 | 5 | 請求日\(From\) | billingDateFrom |
 | 6 | 請求日\(To\) | billingDateTo |
-| 7 | 支払期限\(From\) | paymentDateFrom |
-| 8 | 支払期限\(To\) | paymentDateTo |
+| 7 | 支払期限日\(From\) | paymentDateFrom |
+| 8 | 支払期限日\(To\) | paymentDateTo |
 | 9 | 区分 | types |
 {% endtab %}
 {% endtabs %}
