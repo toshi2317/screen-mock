@@ -44,7 +44,7 @@
       <td style="text-align:left">
         <p>当日の週の日毎の見積件数集計したもの赤でBar Chart表示</p>
         <p>マウスバーで件数表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日今週ででセットしてAPI叩いて出たsummaryCountの値</p>
+        <p>quotationDateFrom,quotationDateTo見積日今週でセットしてAPI叩いて出たsummaryCountの値</p>
       </td>
     </tr>
     <tr>
@@ -53,7 +53,7 @@
       <td style="text-align:left">
         <p>先週の週の日毎の見積件数集計したものグレーでBar Chart表示</p>
         <p>マウスバーで件数表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日先週ででセットしてAPI叩いて出たsummaryCountの値</p>
+        <p>quotationDateFrom,quotationDateTo見積日先週でセットしてAPI叩いて出たsummaryCountの値</p>
       </td>
     </tr>
   </tbody>
@@ -129,7 +129,7 @@ quotationsummary
       <td style="text-align:left">
         <p>当日の週の日毎の見積金額赤線でLine Chart表示</p>
         <p>マウスバーで金額表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日今週ででセットしてAPI叩いて出たsummaryAmountの値</p>
+        <p>quotationDateFrom,quotationDateTo見積日今週でセットしてAPI叩いて出たsummaryAmountの値</p>
       </td>
     </tr>
     <tr>
@@ -138,7 +138,7 @@ quotationsummary
       <td style="text-align:left">
         <p>先週の週の日毎の見積金額グレー線でLine Chart表示</p>
         <p>マウスバーで金額表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日先週ででセットしてAPI叩いて出たsummaryAmountの値</p>
+        <p>quotationDateFrom,quotationDateTo見積日先週でセットしてAPI叩いて出たsummaryAmountの値</p>
       </td>
     </tr>
   </tbody>
@@ -214,7 +214,7 @@ quotationSummary
       <td style="text-align:left">
         <p>当日の週の日毎の受注件数集計したもの赤線でLine Chart2表示</p>
         <p>マウスバーで件数表示</p>
-        <p>orderDateFrom,orderDateTo受注日今週ででセットしてAPI叩いて出たdataCountの値</p>
+        <p>orderDateFrom,orderDateTo受注日今週でセットしてAPI叩いて出たdataCountの値</p>
       </td>
     </tr>
     <tr>
