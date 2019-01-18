@@ -164,7 +164,7 @@ quotationSummary
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 6 |  | quotationDate |
+| 6 | 見積日 | quotationDate |
 | 7 | 見積金額集計データ\(今週\) | summaryAmount |
 | 8 | 見積金額集計データ\(先週\) | summaryAmount |
 {% endtab %}
