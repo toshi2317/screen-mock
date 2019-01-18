@@ -35,7 +35,7 @@
       <td style="text-align:left">見積日</td>
       <td style="text-align:left">
         <p>見積日横軸とする。</p>
-        <p>単位は月日、1日ごとにその日の週の月日を表示</p>
+        <p>単位は月日、当日 - 7日表示</p>
       </td>
     </tr>
     <tr>
@@ -120,7 +120,7 @@ quotationsummary
       <td style="text-align:left">見積日</td>
       <td style="text-align:left">
         <p>見積日横軸とする。</p>
-        <p>単位は月日、1日ごとにその日の週の月日を表示</p>
+        <p>単位は月日、当日 - 7日表示</p>
       </td>
     </tr>
     <tr>
@@ -205,7 +205,7 @@ quotationSummary
       <td style="text-align:left">受注日</td>
       <td style="text-align:left">
         <p>受注日横軸とする。</p>
-        <p>単位は月日、1日ごとにその日の週の月日を表示</p>
+        <p>単位は月日、当日 - 7日表示</p>
       </td>
     </tr>
     <tr>
