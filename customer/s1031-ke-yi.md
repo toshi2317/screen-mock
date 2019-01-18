@@ -161,6 +161,19 @@
 | 4 | 電話番号 | tel |
 | 5 | メールアドレス | email |
 {% endtab %}
+
+{% tab title="保存API" %}
+**使用API**
+
+**fileStatusSave**
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 20 | ID | fileStatusId |
+| 21 | ステータス | status |
+| 22 | S3ファイルパス | filePath |
+| 23 | SQSキューID | sqsId |
+{% endtab %}
 {% endtabs %}
 
 ### 一覧表示部
