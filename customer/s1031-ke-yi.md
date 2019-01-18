@@ -139,10 +139,9 @@
       <td style="text-align:left">非同期CSV</td>
       <td style="text-align:left">
         <p>押下でファイル出力保存APIを実行</p>
-        <p>・検索結果をCSVとして出力する</p>
+        <p>・成功した場合検索結果をCSVとして出力する</p>
         <p>・失敗した場合、APIから返却された</p>
         <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、検索APIの返却値をに表示する</p>
       </td>
     </tr>
   </tbody>
@@ -290,7 +289,11 @@
 </table>
 {% endtab %}
 
-{% tab title="表示パラメータ名" %}
+{% tab title="表示API" %}
+**使用API**
+
+**customerSearch**
+
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 10 | ID | customerName |
