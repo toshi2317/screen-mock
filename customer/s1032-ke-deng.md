@@ -85,6 +85,30 @@
     </tr>
     <tr>
       <td style="text-align:left">9</td>
+      <td style="text-align:left">担当部署検索ボタン</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+      <td style="text-align:left">Y</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">担当部署</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">text</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">100</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
+      <td style="text-align:left">部署担当者</td>
+      <td style="text-align:left">更新</td>
+      <td style="text-align:left">list</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">50</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
@@ -92,7 +116,7 @@
       <td style="text-align:left"></td>
     </tr>
     <tr>
-      <td style="text-align:left">10</td>
+      <td style="text-align:left">13</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
@@ -151,6 +175,30 @@
     </tr>
     <tr>
       <td style="text-align:left">9</td>
+      <td style="text-align:left">担当部署検索ボタン</td>
+      <td style="text-align:left">
+        <p>押下でS112_1 担当部署一覧をPOPUP表示</p>
+        <p>当画面に戻ってきた際、担当部署名自動提案</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">担当部署</td>
+      <td style="text-align:left">
+        <p>前画面で選択された[sectionId - sectionName]を自動提案</p>
+        <p>変更可</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
+      <td style="text-align:left">部署担当者</td>
+      <td style="text-align:left">
+        <p>担当部署選択で担当者API実行</p>
+        <p>担当者APIの結果[staffId - staffName]をリスト表示</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">12</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
         <p>保存APIを実行</p>
@@ -161,7 +209,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">10</td>
+      <td style="text-align:left">13</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">前の画面に戻る</td>
     </tr>
@@ -184,6 +232,18 @@
 | 6 | 郵便番号 | zip |
 | 7 | 都道府県 | address1 |
 | 8 | 住所 | address2 |
+| 10 | 担当部署 | sectionId |
+| 11 | 部署担当者 | staffId |
+{% endtab %}
+
+{% tab title="担当者API" %}
+**使用API**
+
+**staffSearch**
+
+| **No** | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+| 11 | 担当部署名 | sectionId |
 {% endtab %}
 
 {% tab title="その他API" %}

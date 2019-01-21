@@ -15,6 +15,9 @@
 | 7 | 郵便番号 | 更新 | text |  | 8 |
 | 8 | 都道府県 | 表示 | text |  | 50 |
 | 9 | 住所 | 更新 | text |  | 300 |
+|  | 担当部署検索ボタン | 表示 | button | Y |  |
+|  | 担当部署 | 表示 | text |  | 100 |
+|  | 部署担当者 | 更新 | list |  | 50 |
 | 10 | 納品先 | 更新 | list |  |  |
 | 11 | 請求先 | 更新 | list |  |  |
 | 12 | 見積ID | 表示 | text |  |  |
@@ -48,6 +51,8 @@ orderSearch
 | 7 | 郵便番号 | customerZip |
 | 8 | 都道府県 | customerAddress1 |
 | 9 | 住所 | customerAddress2 |
+|  | 担当部署 | sectionId |
+|  | 部署担当者 | staffId |
 | 10 | 納品先 | locationId |
 | 11 | 請求先 | billingId |
 | 12 | 見積先 | quotationId |
@@ -86,6 +91,32 @@ orderSearch
       <td style="text-align:left">
         <p>入力した郵便番号から自動提案</p>
         <p>変更可</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">担当部署検索ボタン</td>
+      <td style="text-align:left">
+        <p>押下でS112_1 担当部署一覧をPOPUP表示</p>
+        <p>当画面に戻ってきた際、担当部署名自動提案</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">担当部署</td>
+      <td style="text-align:left">
+        <p>起動時APIの返却値自動提案 or</p>
+        <p>S112_1 担当部署一覧画面で選択された</p>
+        <p>[sectionId - sectionName]を自動提案</p>
+        <p>変更可</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">部署担当者</td>
+      <td style="text-align:left">
+        <p>起動時APIの返却値自動提案 or 担当部署選択で担当者API実行</p>
+        <p>担当者APIの結果[staffId - staffName]をリスト表示</p>
       </td>
     </tr>
     <tr>
@@ -141,6 +172,16 @@ orderSearch
     </tr>
   </tbody>
 </table>
+{% endtab %}
+
+{% tab title="担当者API" %}
+**使用API**
+
+**staffSearch**
+
+| No | 名称 | パラメータ名 |
+| :--- | :--- | :--- |
+|  | 担当部署 | sectionId |
 {% endtab %}
 
 {% tab title="納品先API" %}
@@ -208,6 +249,8 @@ orderSearch
 | 7 | 郵便番号 | customerZip |
 | 8 | 都道府県 | customerAddress1 |
 | 9 | 住所 | customerAddress2 |
+|  | 担当部署 | sectionId |
+|  | 部署担当者 | staffId |
 | 10 | 納品先 | locationId |
 | 11 | 請求先 | billinbId |
 | 12 | 見積ID | quotationId |

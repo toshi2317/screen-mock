@@ -77,25 +77,49 @@
       <td style="text-align:left">text</td>
     </tr>
     <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">担当部署検索ボタン</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+    <tr>
       <td style="text-align:left">6</td>
-      <td style="text-align:left">検索</td>
+      <td style="text-align:left">担当部署</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">text</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">担当者検索ボタン</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">クリア</td>
+      <td style="text-align:left">部署担当者</td>
       <td style="text-align:left">表示</td>
-      <td style="text-align:left">button</td>
+      <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">8</td>
-      <td style="text-align:left">CSV</td>
+      <td style="text-align:left">検索</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
     </tr>
     <tr>
       <td style="text-align:left">9</td>
+      <td style="text-align:left">クリア</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">10</td>
+      <td style="text-align:left">CSV</td>
+      <td style="text-align:left">表示</td>
+      <td style="text-align:left">button</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">11</td>
       <td style="text-align:left">非同期CSV</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">button</td>
@@ -115,7 +139,23 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">6</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">担当部署検索ボタン</td>
+      <td style="text-align:left">
+        <p>押下でS112_1 担当部署一覧画面をPOPUP表示</p>
+        <p>当画面に戻ってきた際、担当部署自動提案</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">部署担当者検索ボタン</td>
+      <td style="text-align:left">
+        <p>押下でS113_1 部署担当者一覧画面をPOPUP表示</p>
+        <p>当画面に戻ってきた際、部署担当者自動提案</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">8</td>
       <td style="text-align:left">検索</td>
       <td style="text-align:left">
         <p>検索APIを実行</p>
@@ -125,17 +165,17 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">7</td>
+      <td style="text-align:left">9</td>
       <td style="text-align:left">クリア</td>
       <td style="text-align:left">検索条件部をデフォルトの状態に戻す</td>
     </tr>
     <tr>
-      <td style="text-align:left">8</td>
+      <td style="text-align:left">10</td>
       <td style="text-align:left">CSV</td>
       <td style="text-align:left">検索結果をCSVとして出力する</td>
     </tr>
     <tr>
-      <td style="text-align:left">9</td>
+      <td style="text-align:left">11</td>
       <td style="text-align:left">非同期CSV</td>
       <td style="text-align:left">
         <p>押下でファイル出力保存APIを実行</p>
@@ -159,6 +199,8 @@
 | 3 | 顧客名/ふりがな | name |
 | 4 | 電話番号 | tel |
 | 5 | メールアドレス | email |
+| 6 | 担当部署ID | sectionId |
+| 7 | 部署担当者ID | staffId |
 {% endtab %}
 
 {% tab title="保存API" %}
@@ -193,61 +235,61 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">10</td>
+      <td style="text-align:left">12</td>
       <td style="text-align:left">ID</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
-      <td style="text-align:left">11</td>
+      <td style="text-align:left">13</td>
       <td style="text-align:left">顧客名</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">12</td>
+      <td style="text-align:left">14</td>
       <td style="text-align:left">ふりがな</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">13</td>
+      <td style="text-align:left">15</td>
       <td style="text-align:left">電話番号</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">14</td>
+      <td style="text-align:left">16</td>
       <td style="text-align:left">担当者</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">15</td>
+      <td style="text-align:left">17</td>
       <td style="text-align:left">メールアドレス</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">16</td>
+      <td style="text-align:left">18</td>
       <td style="text-align:left">郵便番号</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">17</td>
+      <td style="text-align:left">19</td>
       <td style="text-align:left">都道府県</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">18</td>
+      <td style="text-align:left">20</td>
       <td style="text-align:left">住所</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
-      <td style="text-align:left">19</td>
+      <td style="text-align:left">21</td>
       <td style="text-align:left">無効フラグ</td>
       <td style="text-align:left">表示</td>
       <td style="text-align:left">text</td>
@@ -267,17 +309,17 @@
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">10</td>
+      <td style="text-align:left">12</td>
       <td style="text-align:left">ID</td>
       <td style="text-align:left">押下でS103_3 顧客編集画面を別タブ起動する</td>
     </tr>
     <tr>
-      <td style="text-align:left">10</td>
+      <td style="text-align:left">12</td>
       <td style="text-align:left">ID</td>
       <td style="text-align:left">POPUP表示の場合、押下で親画面に値を引き継ぐ</td>
     </tr>
     <tr>
-      <td style="text-align:left">19</td>
+      <td style="text-align:left">21</td>
       <td style="text-align:left">無効フラグ</td>
       <td style="text-align:left">
         <p>0 -> OFF</p>
@@ -296,16 +338,16 @@
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 10 | ID | customerName |
-| 11 | 顧客名 | name |
-| 12 | ふりがな | kana |
-| 13 | 電話番号 | tel |
-| 14 | 担当者 | staffName |
-| 15 | メールアドレス | email |
-| 16 | 郵便番号 | zip |
-| 17 | 都道府県 | address1 |
-| 18 | 住所 | address2 |
-| 19 | 無効フラグ | disableFlag |
+| 12 | ID | customerName |
+| 13 | 顧客名 | name |
+| 14 | ふりがな | kana |
+| 15 | 電話番号 | tel |
+| 16 | 担当者 | staffName |
+| 17 | メールアドレス | email |
+| 18 | 郵便番号 | zip |
+| 19 | 都道府県 | address1 |
+| 20 | 住所 | address2 |
+| 21 | 無効フラグ | disableFlag |
 {% endtab %}
 {% endtabs %}
 
