@@ -35,25 +35,25 @@
       <td style="text-align:left">見積日</td>
       <td style="text-align:left">
         <p>見積日横軸とする。</p>
-        <p>単位は月日、当日 - 7日表示</p>
+        <p>単位は月日、当日 - 6日~当日の7日を1日毎表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">見積件数集計データ(今週)</td>
       <td style="text-align:left">
-        <p>当日の週の日毎の見積件数集計したもの赤でBar Chart表示</p>
+        <p>当日 - 6日~当日の1日毎の見積件数集計したもの緑でBar Chart表示</p>
         <p>マウスバーで件数表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日今週でセットしてAPI叩いて出たsummaryCountの値</p>
+        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryCountの値をBar Chart表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
       <td style="text-align:left">見積件数集計データ(先週)</td>
       <td style="text-align:left">
-        <p>先週の週の日毎の見積件数集計したものグレーでBar Chart表示</p>
+        <p>今週の日付-7日の1日毎の見積件数集計したもの青でBar Chart表示</p>
         <p>マウスバーで件数表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日先週でセットしてAPI叩いて出たsummaryCountの値</p>
+        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryCountの値をBar Chart表示</p>
       </td>
     </tr>
   </tbody>
@@ -112,7 +112,7 @@ quotationsummary
       <td style="text-align:left">見積金額</td>
       <td style="text-align:left">
         <p>見積金額縦軸とする。</p>
-        <p>単位は万円、100万円ごとに目盛表示</p>
+        <p>単位は円、100万円ごとに目盛表示</p>
       </td>
     </tr>
     <tr>
@@ -120,25 +120,25 @@ quotationsummary
       <td style="text-align:left">見積日</td>
       <td style="text-align:left">
         <p>見積日横軸とする。</p>
-        <p>単位は月日、当日 - 7日表示</p>
+        <p>単位は月日、当日 - 6日~当日の7日を1日毎表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
       <td style="text-align:left">見積金額集計データ(今週)</td>
       <td style="text-align:left">
-        <p>当日の週の日毎の見積金額赤線でLine Chart表示</p>
+        <p>当日 - 6日~当日の1日毎の見積金額緑線でLine Chart表示</p>
         <p>マウスバーで金額表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日今週でセットしてAPI叩いて出たsummaryAmountの値</p>
+        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryAmountの値をBar Chart表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">見積金額集計データ(先週)</td>
       <td style="text-align:left">
-        <p>先週の週の日毎の見積金額グレー線でLine Chart表示</p>
+        <p>今週の日付-7日の1日毎の見積金額青線でLine Chart表示</p>
         <p>マウスバーで金額表示</p>
-        <p>quotationDateFrom,quotationDateTo見積日先週でセットしてAPI叩いて出たsummaryAmountの値</p>
+        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryAmountの値をBar Chart表示</p>
       </td>
     </tr>
   </tbody>
@@ -205,25 +205,25 @@ quotationSummary
       <td style="text-align:left">受注日</td>
       <td style="text-align:left">
         <p>受注日横軸とする。</p>
-        <p>単位は月日、当日 - 7日表示</p>
+        <p>単位は月日、当日 - 6日~当日の7日を1日毎表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">11</td>
       <td style="text-align:left">受注件数集計データ(今週)</td>
       <td style="text-align:left">
-        <p>当日の週の日毎の受注件数集計したもの赤線でLine Chart2表示</p>
+        <p>当日 - 6日~当日の1日毎の受注件数集計したもの緑線でLine Chart2表示</p>
         <p>マウスバーで件数表示</p>
-        <p>orderDateFrom,orderDateTo受注日今週でセットしてAPI叩いて出たdataCountの値</p>
+        <p>受注件数取得方法はJ102 受注集計参照、API叩いて出たsummaryCountの値をBar Chart2表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">12</td>
       <td style="text-align:left">受注件数集計データ(先週)</td>
       <td style="text-align:left">
-        <p>先週の週の日毎の受注件数集計したものグレー線でLine Chart2表示</p>
+        <p>今週の日付-7日の1日毎の受注件数集計したもの青線でLine Chart2表示</p>
         <p>マウスバーで件数表示</p>
-        <p>orderDateFrom,orderDateTo受注日でセットしてAPI叩いて出たdataCountの値</p>
+        <p>受注件数取得方法はJ102 受注集計参照、API叩いて出たsummaryCountの値をBar Chart2表示</p>
       </td>
     </tr>
   </tbody>
@@ -233,13 +233,13 @@ quotationSummary
 {% tab title="起動時API" %}
 **使用API**
 
-ordersummary
+orderSummary
 
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 10 | 受注日 | orderDate |
-| 11 | 受注件数集計データ\(今週\) | dataCount |
-| 12 | 受注件数集計データ\(先週\) | dataCount |
+| 11 | 受注件数集計データ\(今週\) | summaryCount |
+| 12 | 受注件数集計データ\(先週\) | summaryCount |
 {% endtab %}
 
 {% tab title="表示API" %}
@@ -250,8 +250,8 @@ ordersummary
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 10 | 受注日 | orderDate |
-| 11 | 受注件数集計データ\(今週\) | dataCount |
-| 12 | 受注件数集計データ\(先週\) | dataCount |
+| 11 | 受注件数集計データ\(今週\) | summaryCount |
+| 12 | 受注件数集計データ\(先週\) | summaryCount |
 {% endtab %}
 {% endtabs %}
 
@@ -287,24 +287,24 @@ ordersummary
       <td style="text-align:left">14</td>
       <td style="text-align:left">受託</td>
       <td style="text-align:left">
-        <p>types=1の前月の受注金額集計額を緑でDonut Chart表示</p>
-        <p>type=1指定してAPI叩いて出た summaryCountractAmountの値</p>
+        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
+        <p>実行現在月の前月、type=1指定してAPI叩いて出た summaryCountractAmountの値を緑でDonut Chart表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">15</td>
       <td style="text-align:left">SES</td>
       <td style="text-align:left">
-        <p>types=2の前月の受注金額集計額を青でDonut Chart表示</p>
-        <p>type=2指定してAPI叩いて出た summaryCountractAmountの値</p>
+        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
+        <p>実行現在月の前月、type=2指定してAPI叩いて出た summaryCountractAmountの値を青でDonut Chart表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">16</td>
       <td style="text-align:left">その他</td>
       <td style="text-align:left">
-        <p>types=NULLの前月の受注金額集計額をオレンジでDonut Chart表示</p>
-        <p>type=NULL指定してAPI叩いて出た summaryCountractAmountの値</p>
+        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
+        <p>実行現在月の前月、type=NULL指定してAPI叩いて出た summaryCountractAmountの値をグレーでDonut Chart表示</p>
       </td>
     </tr>
     <tr>
@@ -382,24 +382,24 @@ ordersummary
       <td style="text-align:left">19</td>
       <td style="text-align:left">受託</td>
       <td style="text-align:left">
-        <p>types=1の当月の受注金額集計額を緑でDonut Chart表示</p>
-        <p>type=1指定してAPI叩いて summaryCountractAmountの値</p>
+        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
+        <p>当月現在月、type=1指定してAPI叩いて出た summaryCountractAmountの値を緑でDonut Chart表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">20</td>
       <td style="text-align:left">SES</td>
       <td style="text-align:left">
-        <p>types=2の当月の受注金額集計額を青でDonut Chart表示</p>
-        <p>type=2指定してAPI叩いて summaryCountractAmountの値</p>
+        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
+        <p>実行現在月、type=2指定してAPI叩いて出た summaryCountractAmountの値を青でDonut Chart表示</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">21</td>
       <td style="text-align:left">その他</td>
       <td style="text-align:left">
-        <p>types=NULLの当月の受注金額集計額をオレンジでDonut Chart表示</p>
-        <p>type=NULL指定してAPI叩いて summaryCountractAmountの値</p>
+        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
+        <p>実行現在月、type=NULL指定してAPI叩いて出た summaryCountractAmountの値をグレーでDonut Chart表示</p>
       </td>
     </tr>
     <tr>
