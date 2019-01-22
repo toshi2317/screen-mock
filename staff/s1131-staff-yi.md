@@ -102,12 +102,12 @@
     <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">担当者ID</td>
-      <td style="text-align:left">押下でS113_3 担当者編集画面へ遷移</td>
+      <td style="text-align:left">押下でS113_3 担当者編集画面を別タブ起動する</td>
     </tr>
     <tr>
       <td style="text-align:left">9</td>
       <td style="text-align:left">担当部署ID</td>
-      <td style="text-align:left">押下でS112_3 担当部署編集へ遷移</td>
+      <td style="text-align:left">押下でS112_3 担当部署編集を別タブ起動する</td>
     </tr>
     <tr>
       <td style="text-align:left">11</td>
