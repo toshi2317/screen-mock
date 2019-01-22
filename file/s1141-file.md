@@ -82,7 +82,7 @@
 | :--- | :--- | :--- | :--- |
 | 5 | ID | 表示 | text |
 | 6 | SQSキューID | 表示 | text |
-| 7 | ファイル | 表示 | textlink |
+| 7 | S3ファイルパス | 表示 | textlink |
 | 8 | ステータス | 表示 | text |
 {% endtab %}
 
@@ -98,7 +98,7 @@
   <tbody>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">ファイル</td>
+      <td style="text-align:left">S3ファイル</td>
       <td style="text-align:left">押下でCSVファイル出力</td>
     </tr>
     <tr>
@@ -122,7 +122,7 @@
 | :--- | :--- | :--- |
 | 5 | ID | fileStatusId |
 | 6 | SQSキューID | sqsId |
-| 7 | ファイル | filePath |
+| 7 | S3ファイル | filePath |
 | 8 | ステータス | status |
 {% endtab %}
 {% endtabs %}
