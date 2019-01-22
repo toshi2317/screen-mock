@@ -8,7 +8,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | ID | 表示 | text | Y |  |
 | 2 | 担当者 | 更新 | text | Y | 50 |
-| 3 | 担当部署 | 更新 | text | Y |  |
+| 3 | 担当部署 | 更新 | list | Y |  |
 | 4 | 在籍区分 | 更新 | list |  |  |
 | 5 | 保存 | 表示 | button |  |  |
 | 6 | 戻る | 表示 | button |  |  |
@@ -46,7 +46,7 @@
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">担当部署</td>
-      <td style="text-align:left">sectionIdから[sectionId - sectionName]を表示</td>
+      <td style="text-align:left">sectionIdから[sectionId - sectionName]を自動提案</td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
