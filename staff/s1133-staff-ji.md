@@ -46,7 +46,10 @@
     <tr>
       <td style="text-align:left">3</td>
       <td style="text-align:left">担当部署</td>
-      <td style="text-align:left">sectionIdから[sectionId - sectionName]を自動提案</td>
+      <td style="text-align:left">
+        <p>起動時APIの返却値のsectionIdから[sectionId - sectionName]を自動提案or</p>
+        <p>担当部署リスト表示</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
