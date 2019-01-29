@@ -112,7 +112,7 @@
       <td style="text-align:left">見積日</td>
       <td style="text-align:left">更新</td>
       <td style="text-align:left">date</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">Y</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -217,7 +217,10 @@
     <tr>
       <td style="text-align:left">12</td>
       <td style="text-align:left">見積日</td>
-      <td style="text-align:left">当日を自動提案</td>
+      <td style="text-align:left">
+        <p>デフォルト当日を自動提案</p>
+        <p>入力必須</p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left">13</td>
