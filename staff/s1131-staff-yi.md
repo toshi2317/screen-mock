@@ -24,7 +24,7 @@
 | :--- | :--- | :--- | :--- |
 | 2 | 担当者ID | 更新 | text |
 | 3 | 担当部署ID | 更新 | text |
-| 4 | 担当者 | 更新 | text |
+| 4 | 担当者名 | 更新 | text |
 | 5 | 検索 | 表示 | button |
 | 6 | クリア | 表示 | button |
 | 7 | CSV | 表示 | button |
@@ -85,7 +85,7 @@
 | :--- | :--- | :--- | :--- |
 | 8 | 担当者ID | 表示 | textlink |
 | 9 | 担当部署ID | 表示 | textlink |
-| 10 | 担当者 | 表示 | text |
+| 10 | 担当者名 | 表示 | text |
 | 11 | 在籍区分 | 表示 | text |
 {% endtab %}
 
@@ -130,7 +130,7 @@
 | :--- | :--- | :--- |
 | 8 | 担当者ID | staffId |
 | 9 | 担当部署ID | sectionId |
-| 10 | 担当者 | staffName |
+| 10 | 担当者名 | staffName |
 | 11 | 在籍区分 | type |
 {% endtab %}
 {% endtabs %}

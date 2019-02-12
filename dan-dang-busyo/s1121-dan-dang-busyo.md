@@ -23,7 +23,7 @@
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
 | 2 | 担当部署ID | 更新 | text |
-| 3 | 担当部署 | 更新 | text |
+| 3 | 担当部署名 | 更新 | text |
 | 4 | 検索 | 表示 | button |
 | 5 | クリア | 表示 | button |
 | 6 | CSV | 表示 | button |
@@ -71,7 +71,7 @@
 | **No** | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 2 | 担当部署ID | sectionId |
-| 3 | 担当部署 | sectionName |
+| 3 | 担当部署名 | sectionName |
 {% endtab %}
 {% endtabs %}
 
@@ -82,7 +82,7 @@
 | No | 名称 | 更新/表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
 | 4 | ID | 表示 | textlink |
-| 5 | 担当部署 | 表示 | text |
+| 5 | 担当部署名 | 表示 | text |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -100,7 +100,7 @@
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
 | 4 | ID | sectionId |
-| 5 | 担当部署 | sectionName |
+| 5 | 担当部署名 | sectionName |
 {% endtab %}
 {% endtabs %}
 
