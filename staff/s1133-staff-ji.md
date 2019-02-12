@@ -8,10 +8,11 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | ID | 表示 | text | Y |  |
 | 2 | 担当者 | 更新 | text | Y | 50 |
-| 3 | 担当部署 | 更新 | list | Y |  |
-| 4 | 在籍区分 | 更新 | list |  |  |
-| 5 | 保存 | 表示 | button |  |  |
-| 6 | 戻る | 表示 | button |  |  |
+| 3 | 担当部署ID検索 | 表示 | button | Y |  |
+| 4 | 担当部署 | 更新 | text | Y |  |
+| 5 | 在籍区分 | 更新 | list |  |  |
+| 6 | 保存 | 表示 | button |  |  |
+| 7 | 戻る | 表示 | button |  |  |
 {% endtab %}
 
 {% tab title="起動時API" %}
@@ -29,8 +30,8 @@
 | :--- | :--- | :--- |
 | 1 | ID | staffId |
 | 2 | 担当者 | staffName |
-| 3 | 担当部署 | sectionId |
-| 4 | 在籍区分 | type |
+| 4 | 担当部署 | sectionId |
+| 5 | 在籍区分 | type |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -45,6 +46,16 @@
   <tbody>
     <tr>
       <td style="text-align:left">3</td>
+      <td style="text-align:left">担当者ID検索</td>
+      <td style="text-align:left">
+        <p>常に表示</p>
+        <p>押下でS112_1 担当部署一覧画面POPUP表示</p>
+        <p>ID押下で当画面遷移、担当部署ID、担当部署名</p>
+        <p>自動提案</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4</td>
       <td style="text-align:left">担当部署</td>
       <td style="text-align:left">
         <p>起動時APIの返却値のsectionIdから[sectionId - sectionName]を自動提案or</p>
@@ -52,7 +63,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">4</td>
+      <td style="text-align:left">5</td>
       <td style="text-align:left">在籍区分</td>
       <td style="text-align:left">
         <p>1.在籍 2.休職 3.退職</p>
@@ -60,7 +71,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">5</td>
+      <td style="text-align:left">6</td>
       <td style="text-align:left">保存</td>
       <td style="text-align:left">
         <p>保存APIを実行</p>
@@ -71,7 +82,7 @@
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">6</td>
+      <td style="text-align:left">7</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">前の画面に戻る</td>
     </tr>
@@ -88,8 +99,8 @@
 | :--- | :--- | :--- |
 | 1 | ID | staffId |
 | 2 | 担当者 | staffName |
-| 3 | 担当部署 | sectionId |
-| 4 | 在籍区分 | type |
+| 4 | 担当部署 | sectionId |
+| 5 | 在籍区分 | type |
 {% endtab %}
 {% endtabs %}
 
