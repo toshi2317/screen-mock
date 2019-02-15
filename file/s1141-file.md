@@ -42,11 +42,6 @@
       <td style="text-align:left">当日を自動提案</td>
     </tr>
     <tr>
-      <td style="text-align:left">4</td>
-      <td style="text-align:left">出力依頼日(To)</td>
-      <td style="text-align:left">当日を自動提案</td>
-    </tr>
-    <tr>
       <td style="text-align:left">5</td>
       <td style="text-align:left">クリア</td>
       <td style="text-align:left">検索条件部をデフォルトの状態に戻す</td>
