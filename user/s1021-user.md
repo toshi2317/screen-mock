@@ -27,6 +27,7 @@
 | 4 | 権限 | 更新 | list |
 | 5 | 検索 | 表示 | button |
 | 6 | クリア | 表示 | button |
+| 7 | メール配信 | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -62,6 +63,15 @@
       <td style="text-align:left">クリア</td>
       <td style="text-align:left">検索条件部をデフォルトの状態に戻す</td>
     </tr>
+    <tr>
+      <td style="text-align:left">7</td>
+      <td style="text-align:left">メール　　配信</td>
+      <td style="text-align:left">
+        <p>・押下で固定文言のメールを指定したユーザのメールアドレスに送信する</p>
+        <p>・APIサーバで送信先や題名、本文をセットし、別パッケージからSendGridと連携をする</p>
+        <p>・SendGrid情報などはenv設定</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 {% endtab %}
@@ -85,16 +95,16 @@
 {% tab title="項目制御" %}
 | No | 名称 | 更新表示 | 部品種類 |
 | :--- | :--- | :--- | :--- |
-| 5 | ID | 表示 | textlink |
-| 6 | メールアドレス | 表示 | text |
-| 7 | 権限 | 表示 | text |
+| 8 | ID | 表示 | textlink |
+| 9 | メールアドレス | 表示 | text |
+| 10 | 権限 | 表示 | text |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
 | No | 名称 | 表示条件/仕様 |
 | :--- | :--- | :--- |
-| 5 | ID | 押下でS102\_3 ユーザー編集画面に遷移 |
-| 7 | 権限 | リスト値=1:システム管理者 表示 |
+| 8 | ID | 押下でS102\_3 ユーザー編集画面に遷移 |
+| 10 | 権限 | リスト値=1:システム管理者 表示 |
 {% endtab %}
 
 {% tab title="表示API" %}
@@ -104,9 +114,9 @@
 
 | No | 名称 | パラメータ名 |
 | :--- | :--- | :--- |
-| 5 | ID | userId |
-| 6 | メールアドレス | email |
-| 7 | 権限 | userFlag |
+| 8 | ID | userId |
+| 9 | メールアドレス | email |
+| 10 | 権限 | userFlag |
 {% endtab %}
 {% endtabs %}
 

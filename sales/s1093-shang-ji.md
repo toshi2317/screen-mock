@@ -275,6 +275,8 @@
 | :--- | :--- | :--- | :--- |
 | 24 | 保存 | 表示 | button |
 | 25 | 戻る | 表示 | button |
+| 26 | エクセル出力ボタン | 表示 | button |
+| 27 | PDF出力ボタン | 表示 | button |
 {% endtab %}
 
 {% tab title="詳細仕様" %}
@@ -302,6 +304,16 @@
       <td style="text-align:left">25</td>
       <td style="text-align:left">戻る</td>
       <td style="text-align:left">前の画面に戻る</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">26</td>
+      <td style="text-align:left">エクセル出力　　　　　　ボタン</td>
+      <td style="text-align:left">押下で売上、売上明細情報エクセル出力</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">27</td>
+      <td style="text-align:left">PDF出力ボタン</td>
+      <td style="text-align:left">押下で売上、売上明細情報PDF出力</td>
     </tr>
   </tbody>
 </table>
