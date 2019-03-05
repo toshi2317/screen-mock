@@ -8,19 +8,19 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">1</td>
-      <td style="text-align:left">新規登録</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x65B0;&#x898F;&#x767B;&#x9332;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
     </tr>
   </tbody>
@@ -53,30 +53,30 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">検索</td>
+      <td style="text-align:left">&#x691C;&#x7D22;</td>
       <td style="text-align:left">
-        <p>検索APIを実行</p>
-        <p>・失敗した場合、当画面に止まり、APIから返却された</p>
-        <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、検索APIの返却値を一覧表示部に表示する</p>
+        <p>&#x691C;&#x7D22;API&#x3092;&#x5B9F;&#x884C;</p>
+        <p>&#x30FB;&#x5931;&#x6557;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x5F53;&#x753B;&#x9762;&#x306B;&#x6B62;&#x307E;&#x308A;&#x3001;API&#x304B;&#x3089;&#x8FD4;&#x5374;&#x3055;&#x308C;&#x305F;</p>
+        <p>&#x30A8;&#x30E9;&#x30FC;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;</p>
+        <p>&#x30FB;&#x6210;&#x529F;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x691C;&#x7D22;API&#x306E;&#x8FD4;&#x5374;&#x5024;&#x3092;&#x4E00;&#x89A7;&#x8868;&#x793A;&#x90E8;&#x306B;&#x8868;&#x793A;&#x3059;&#x308B;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
-      <td style="text-align:left">クリア</td>
-      <td style="text-align:left">検索条件部をデフォルトの状態に戻す</td>
+      <td style="text-align:left">&#x30AF;&#x30EA;&#x30A2;</td>
+      <td style="text-align:left">&#x691C;&#x7D22;&#x6761;&#x4EF6;&#x90E8;&#x3092;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x306E;&#x72B6;&#x614B;&#x306B;&#x623B;&#x3059;</td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
       <td style="text-align:left">CSV</td>
-      <td style="text-align:left">検索結果をCSVとして出力する</td>
+      <td style="text-align:left">&#x691C;&#x7D22;&#x7D50;&#x679C;&#x3092;CSV&#x3068;&#x3057;&#x3066;&#x51FA;&#x529B;&#x3059;&#x308B;</td>
     </tr>
   </tbody>
 </table>
@@ -103,49 +103,50 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">8</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">9</td>
-      <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x9867;&#x5BA2;&#x540D;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">10</td>
-      <td style="text-align:left">問合担当者</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x554F;&#x5408;&#x62C5;&#x5F53;&#x8005;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">11</td>
-      <td style="text-align:left">問合電話番号</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x554F;&#x5408;&#x96FB;&#x8A71;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">12</td>
-      <td style="text-align:left">問合メールアドレス</td>
-      <td style="text-align:left">表示</td>
-      <td style="text-align:left">text</td>
+      <td style="text-align:left">&#x554F;&#x5408;&#x30E1;&#x30FC;&#x30EB;&#x30A2;&#x30C9;&#x30EC;&#x30B9;</td>
+      <td
+      style="text-align:left">&#x8868;&#x793A;</td>
+        <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">13</td>
-      <td style="text-align:left">問合題名</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x554F;&#x5408;&#x984C;&#x540D;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
   </tbody>

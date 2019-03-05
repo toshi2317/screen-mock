@@ -39,39 +39,41 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">権限</td>
+      <td style="text-align:left">&#x6A29;&#x9650;</td>
       <td style="text-align:left">
-        <p>1:システム管理者</p>
-        <p>リスト値表示</p>
+        <p>1:&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x7BA1;&#x7406;&#x8005;</p>
+        <p>&#x30EA;&#x30B9;&#x30C8;&#x5024;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">パスワード変更ボタン</td>
-      <td style="text-align:left">チェックボタン押下で変更不可or可</td>
+      <td style="text-align:left">&#x30D1;&#x30B9;&#x30EF;&#x30FC;&#x30C9;&#x5909;&#x66F4;&#x30DC;&#x30BF;&#x30F3;</td>
+      <td
+      style="text-align:left">&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x30DC;&#x30BF;&#x30F3;&#x62BC;&#x4E0B;&#x3067;&#x5909;&#x66F4;&#x4E0D;&#x53EF;or&#x53EF;</td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
-      <td style="text-align:left">保存</td>
+      <td style="text-align:left">&#x4FDD;&#x5B58;</td>
       <td style="text-align:left">
-        <p>保存APIを実行</p>
-        <p>・失敗した場合、当画面に止まり、APIから返却された</p>
-        <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、保存されましたメッセージ表示</p>
-        <p>・保存されましたメッセージ表示後、保存APIの返却値をセットしたS102_3 ユーザー編集画面へ遷移する</p>
+        <p>&#x4FDD;&#x5B58;API&#x3092;&#x5B9F;&#x884C;</p>
+        <p>&#x30FB;&#x5931;&#x6557;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x5F53;&#x753B;&#x9762;&#x306B;&#x6B62;&#x307E;&#x308A;&#x3001;API&#x304B;&#x3089;&#x8FD4;&#x5374;&#x3055;&#x308C;&#x305F;</p>
+        <p>&#x30A8;&#x30E9;&#x30FC;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;</p>
+        <p>&#x30FB;&#x6210;&#x529F;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x4FDD;&#x5B58;&#x3055;&#x308C;&#x307E;&#x3057;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x8868;&#x793A;</p>
+        <p>&#x30FB;&#x4FDD;&#x5B58;&#x3055;&#x308C;&#x307E;&#x3057;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x8868;&#x793A;&#x5F8C;&#x3001;&#x4FDD;&#x5B58;API&#x306E;&#x8FD4;&#x5374;&#x5024;&#x3092;&#x30BB;&#x30C3;&#x30C8;&#x3057;&#x305F;S102_3
+          &#x30E6;&#x30FC;&#x30B6;&#x30FC;&#x7DE8;&#x96C6;&#x753B;&#x9762;&#x3078;&#x9077;&#x79FB;&#x3059;&#x308B;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">戻る</td>
-      <td style="text-align:left">前の画面に戻る</td>
+      <td style="text-align:left">&#x623B;&#x308B;</td>
+      <td style="text-align:left">&#x524D;&#x306E;&#x753B;&#x9762;&#x306B;&#x623B;&#x308B;</td>
     </tr>
   </tbody>
 </table>

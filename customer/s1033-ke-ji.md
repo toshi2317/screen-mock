@@ -10,133 +10,133 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
-      <th style="text-align:left">必須</th>
-      <th style="text-align:left">文字数</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
+      <th style="text-align:left">&#x5FC5;&#x9808;</th>
+      <th style="text-align:left">&#x6587;&#x5B57;&#x6570;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">1</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">2</td>
-      <td style="text-align:left">顧客名</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x9867;&#x5BA2;&#x540D;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left">Y</td>
       <td style="text-align:left">100</td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">ふりがな</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x3075;&#x308A;&#x304C;&#x306A;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left">Y</td>
       <td style="text-align:left">200</td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
-      <td style="text-align:left">電話番号</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x96FB;&#x8A71;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">100</td>
     </tr>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">担当者</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x62C5;&#x5F53;&#x8005;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">50</td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
-      <td style="text-align:left">メールアドレス</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x30E1;&#x30FC;&#x30EB;&#x30A2;&#x30C9;&#x30EC;&#x30B9;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">100</td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">郵便番号</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x90F5;&#x4FBF;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">8</td>
     </tr>
     <tr>
       <td style="text-align:left">8</td>
-      <td style="text-align:left">都道府県</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x90FD;&#x9053;&#x5E9C;&#x770C;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">50</td>
     </tr>
     <tr>
       <td style="text-align:left">9</td>
-      <td style="text-align:left">住所</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x4F4F;&#x6240;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">300</td>
     </tr>
     <tr>
       <td style="text-align:left">10</td>
-      <td style="text-align:left">無効フラグ</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x7121;&#x52B9;&#x30D5;&#x30E9;&#x30B0;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">check</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">担当部署ボタン</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x62C5;&#x5F53;&#x90E8;&#x7F72;&#x30DC;&#x30BF;&#x30F3;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
       <td style="text-align:left">Y</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">担当部署</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x62C5;&#x5F53;&#x90E8;&#x7F72;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">text</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">100</td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">部署担当者</td>
-      <td style="text-align:left">更新</td>
+      <td style="text-align:left">&#x90E8;&#x7F72;&#x62C5;&#x5F53;&#x8005;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;</td>
       <td style="text-align:left">list</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">50</td>
     </tr>
     <tr>
       <td style="text-align:left">11</td>
-      <td style="text-align:left">保存</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x4FDD;&#x5B58;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">12</td>
-      <td style="text-align:left">戻る</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x623B;&#x308B;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">buton</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -177,89 +177,90 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">ふりがな</td>
-      <td style="text-align:left">ひらがなのみ保存可能</td>
+      <td style="text-align:left">&#x3075;&#x308A;&#x304C;&#x306A;</td>
+      <td style="text-align:left">&#x3072;&#x3089;&#x304C;&#x306A;&#x306E;&#x307F;&#x4FDD;&#x5B58;&#x53EF;&#x80FD;</td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
-      <td style="text-align:left">電話番号</td>
-      <td style="text-align:left">数値のみ保存可能</td>
+      <td style="text-align:left">&#x96FB;&#x8A71;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x6570;&#x5024;&#x306E;&#x307F;&#x4FDD;&#x5B58;&#x53EF;&#x80FD;</td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">郵便番号</td>
-      <td style="text-align:left">数値のみ保存可能</td>
+      <td style="text-align:left">&#x90F5;&#x4FBF;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x6570;&#x5024;&#x306E;&#x307F;&#x4FDD;&#x5B58;&#x53EF;&#x80FD;</td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">郵便番号</td>
-      <td style="text-align:left">xxx-xxxx という形のみ許容</td>
+      <td style="text-align:left">&#x90F5;&#x4FBF;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">xxx-xxxx &#x3068;&#x3044;&#x3046;&#x5F62;&#x306E;&#x307F;&#x8A31;&#x5BB9;</td>
     </tr>
     <tr>
       <td style="text-align:left">8</td>
-      <td style="text-align:left">都道府県</td>
+      <td style="text-align:left">&#x90FD;&#x9053;&#x5E9C;&#x770C;</td>
       <td style="text-align:left">
-        <p>入力した郵便番号から自動提案</p>
-        <p>変更不可</p>
+        <p>&#x5165;&#x529B;&#x3057;&#x305F;&#x90F5;&#x4FBF;&#x756A;&#x53F7;&#x304B;&#x3089;&#x81EA;&#x52D5;&#x63D0;&#x6848;</p>
+        <p>&#x5909;&#x66F4;&#x4E0D;&#x53EF;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">9</td>
-      <td style="text-align:left">住所</td>
+      <td style="text-align:left">&#x4F4F;&#x6240;</td>
       <td style="text-align:left">
-        <p>入力した郵便番号から自動提案</p>
-        <p>変更可</p>
+        <p>&#x5165;&#x529B;&#x3057;&#x305F;&#x90F5;&#x4FBF;&#x756A;&#x53F7;&#x304B;&#x3089;&#x81EA;&#x52D5;&#x63D0;&#x6848;</p>
+        <p>&#x5909;&#x66F4;&#x53EF;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">担当部署ボタン</td>
+      <td style="text-align:left">&#x62C5;&#x5F53;&#x90E8;&#x7F72;&#x30DC;&#x30BF;&#x30F3;</td>
       <td style="text-align:left">
-        <p>押下でS112_1 担当部署一覧をPOPUP表示</p>
-        <p>当画面に戻ってきた際、担当部署名自動提案</p>
+        <p>&#x62BC;&#x4E0B;&#x3067;S112_1 &#x62C5;&#x5F53;&#x90E8;&#x7F72;&#x4E00;&#x89A7;&#x3092;POPUP&#x8868;&#x793A;</p>
+        <p>&#x5F53;&#x753B;&#x9762;&#x306B;&#x623B;&#x3063;&#x3066;&#x304D;&#x305F;&#x969B;&#x3001;&#x62C5;&#x5F53;&#x90E8;&#x7F72;&#x540D;&#x81EA;&#x52D5;&#x63D0;&#x6848;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">担当部署</td>
+      <td style="text-align:left">&#x62C5;&#x5F53;&#x90E8;&#x7F72;</td>
       <td style="text-align:left">
-        <p>起動時APIの返却値自動提案</p>
-        <p>S112_1 担当部署一覧画面で選択された</p>
-        <p>[sectionId - sectionName]を自動提案</p>
-        <p>変更可</p>
+        <p>&#x8D77;&#x52D5;&#x6642;API&#x306E;&#x8FD4;&#x5374;&#x5024;&#x81EA;&#x52D5;&#x63D0;&#x6848;</p>
+        <p>S112_1 &#x62C5;&#x5F53;&#x90E8;&#x7F72;&#x4E00;&#x89A7;&#x753B;&#x9762;&#x3067;&#x9078;&#x629E;&#x3055;&#x308C;&#x305F;</p>
+        <p>[sectionId - sectionName]&#x3092;&#x81EA;&#x52D5;&#x63D0;&#x6848;</p>
+        <p>&#x5909;&#x66F4;&#x53EF;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
-      <td style="text-align:left">部署担当者</td>
+      <td style="text-align:left">&#x90E8;&#x7F72;&#x62C5;&#x5F53;&#x8005;</td>
       <td style="text-align:left">
-        <p>起動時APIの返却値自動提案</p>
-        <p>担当部署選択で担当者API実行</p>
-        <p>担当者APIの結果[staffId - staffName]をリスト表示</p>
+        <p>&#x8D77;&#x52D5;&#x6642;API&#x306E;&#x8FD4;&#x5374;&#x5024;&#x81EA;&#x52D5;&#x63D0;&#x6848;</p>
+        <p>&#x62C5;&#x5F53;&#x90E8;&#x7F72;&#x9078;&#x629E;&#x3067;&#x62C5;&#x5F53;&#x8005;API&#x5B9F;&#x884C;</p>
+        <p>&#x62C5;&#x5F53;&#x8005;API&#x306E;&#x7D50;&#x679C;[staffId - staffName]&#x3092;&#x30EA;&#x30B9;&#x30C8;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">11</td>
-      <td style="text-align:left">保存</td>
+      <td style="text-align:left">&#x4FDD;&#x5B58;</td>
       <td style="text-align:left">
-        <p>保存APIを実行</p>
-        <p>・失敗した場合、当画面に止まり、APIから返却された</p>
-        <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、保存されましたメッセージ表示</p>
-        <p>・保存されましたメッセージ表示後、保存APIの返却値をセットしたS103_3 顧客編集画面へ遷移する</p>
+        <p>&#x4FDD;&#x5B58;API&#x3092;&#x5B9F;&#x884C;</p>
+        <p>&#x30FB;&#x5931;&#x6557;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x5F53;&#x753B;&#x9762;&#x306B;&#x6B62;&#x307E;&#x308A;&#x3001;API&#x304B;&#x3089;&#x8FD4;&#x5374;&#x3055;&#x308C;&#x305F;</p>
+        <p>&#x30A8;&#x30E9;&#x30FC;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;</p>
+        <p>&#x30FB;&#x6210;&#x529F;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x4FDD;&#x5B58;&#x3055;&#x308C;&#x307E;&#x3057;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x8868;&#x793A;</p>
+        <p>&#x30FB;&#x4FDD;&#x5B58;&#x3055;&#x308C;&#x307E;&#x3057;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x8868;&#x793A;&#x5F8C;&#x3001;&#x4FDD;&#x5B58;API&#x306E;&#x8FD4;&#x5374;&#x5024;&#x3092;&#x30BB;&#x30C3;&#x30C8;&#x3057;&#x305F;S103_3
+          &#x9867;&#x5BA2;&#x7DE8;&#x96C6;&#x753B;&#x9762;&#x3078;&#x9077;&#x79FB;&#x3059;&#x308B;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">12</td>
-      <td style="text-align:left">戻る</td>
-      <td style="text-align:left">前の画面に戻る</td>
+      <td style="text-align:left">&#x623B;&#x308B;</td>
+      <td style="text-align:left">&#x524D;&#x306E;&#x753B;&#x9762;&#x306B;&#x623B;&#x308B;</td>
     </tr>
   </tbody>
 </table>
@@ -301,22 +302,22 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">タイミング</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x30BF;&#x30A4;&#x30DF;&#x30F3;&#x30B0;</th>
       <th style="text-align:left">API</th>
-      <th style="text-align:left">内容</th>
+      <th style="text-align:left">&#x5185;&#x5BB9;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">郵便番号</td>
-      <td style="text-align:left">更新時</td>
+      <td style="text-align:left">&#x90F5;&#x4FBF;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x66F4;&#x65B0;&#x6642;</td>
       <td style="text-align:left">addressSearch</td>
       <td style="text-align:left">
-        <p>入力した郵便番号を[zipCode]にセットする</p>
-        <p>返却された情報を元に[都道府県][住所]項目を更新する</p>
-        <p>検索結果が0件の場合、バリデーションNG</p>
+        <p>&#x5165;&#x529B;&#x3057;&#x305F;&#x90F5;&#x4FBF;&#x756A;&#x53F7;&#x3092;[zipCode]&#x306B;&#x30BB;&#x30C3;&#x30C8;&#x3059;&#x308B;</p>
+        <p>&#x8FD4;&#x5374;&#x3055;&#x308C;&#x305F;&#x60C5;&#x5831;&#x3092;&#x5143;&#x306B;[&#x90FD;&#x9053;&#x5E9C;&#x770C;][&#x4F4F;&#x6240;]&#x9805;&#x76EE;&#x3092;&#x66F4;&#x65B0;&#x3059;&#x308B;</p>
+        <p>&#x691C;&#x7D22;&#x7D50;&#x679C;&#x304C;0&#x4EF6;&#x306E;&#x5834;&#x5408;&#x3001;&#x30D0;&#x30EA;&#x30C7;&#x30FC;&#x30B7;&#x30E7;&#x30F3;NG</p>
       </td>
     </tr>
   </tbody>
@@ -332,19 +333,19 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">13</td>
-      <td style="text-align:left">新規登録</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x65B0;&#x898F;&#x767B;&#x9332;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
     </tr>
   </tbody>
@@ -367,61 +368,61 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">14</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">15</td>
-      <td style="text-align:left">納品先名</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x7D0D;&#x54C1;&#x5148;&#x540D;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">16</td>
-      <td style="text-align:left">ふりがな</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x3075;&#x308A;&#x304C;&#x306A;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">17</td>
-      <td style="text-align:left">納品先担当者</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x7D0D;&#x54C1;&#x5148;&#x62C5;&#x5F53;&#x8005;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">18</td>
-      <td style="text-align:left">郵便番号</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x90F5;&#x4FBF;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">19</td>
-      <td style="text-align:left">都道府県</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x90FD;&#x9053;&#x5E9C;&#x770C;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">20</td>
-      <td style="text-align:left">住所</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x4F4F;&#x6240;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">21</td>
-      <td style="text-align:left">無効フラグ</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x7121;&#x52B9;&#x30D5;&#x30E9;&#x30B0;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
   </tbody>
@@ -443,23 +444,23 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">14</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">押下でS104_2 納品先編集画面を別タブ起動</td>
+      <td style="text-align:left">&#x62BC;&#x4E0B;&#x3067;S104_2 &#x7D0D;&#x54C1;&#x5148;&#x7DE8;&#x96C6;&#x753B;&#x9762;&#x3092;&#x5225;&#x30BF;&#x30D6;&#x8D77;&#x52D5;</td>
     </tr>
     <tr>
       <td style="text-align:left">21</td>
-      <td style="text-align:left">無効フラグ</td>
+      <td style="text-align:left">&#x7121;&#x52B9;&#x30D5;&#x30E9;&#x30B0;</td>
       <td style="text-align:left">
-        <p>0 -> OFF</p>
-        <p>1 -> ON</p>
-        <p>と表示</p>
+        <p>0 -&gt; OFF</p>
+        <p>1 -&gt; ON</p>
+        <p>&#x3068;&#x8868;&#x793A;</p>
       </td>
     </tr>
   </tbody>
@@ -488,19 +489,19 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">22</td>
-      <td style="text-align:left">新規登録</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x65B0;&#x898F;&#x767B;&#x9332;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
     </tr>
   </tbody>
@@ -523,61 +524,61 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">23</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">24</td>
-      <td style="text-align:left">請求先名</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8ACB;&#x6C42;&#x5148;&#x540D;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">25</td>
-      <td style="text-align:left">ふりがな</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x3075;&#x308A;&#x304C;&#x306A;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">26</td>
-      <td style="text-align:left">請求先担当者</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8ACB;&#x6C42;&#x5148;&#x62C5;&#x5F53;&#x8005;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">27</td>
-      <td style="text-align:left">郵便番号</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x90F5;&#x4FBF;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">28</td>
-      <td style="text-align:left">都道府県</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x90FD;&#x9053;&#x5E9C;&#x770C;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">29</td>
-      <td style="text-align:left">住所</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x4F4F;&#x6240;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">30</td>
-      <td style="text-align:left">無効フラグ</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x7121;&#x52B9;&#x30D5;&#x30E9;&#x30B0;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
   </tbody>
@@ -599,23 +600,23 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">23</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">押下でS105_2 請求先編集画面を別タブ起動</td>
+      <td style="text-align:left">&#x62BC;&#x4E0B;&#x3067;S105_2 &#x8ACB;&#x6C42;&#x5148;&#x7DE8;&#x96C6;&#x753B;&#x9762;&#x3092;&#x5225;&#x30BF;&#x30D6;&#x8D77;&#x52D5;</td>
     </tr>
     <tr>
       <td style="text-align:left">30</td>
-      <td style="text-align:left">無効フラグ</td>
+      <td style="text-align:left">&#x7121;&#x52B9;&#x30D5;&#x30E9;&#x30B0;</td>
       <td style="text-align:left">
-        <p>0 -> OFF</p>
-        <p>1 -> ON</p>
-        <p>と表示</p>
+        <p>0 -&gt; OFF</p>
+        <p>1 -&gt; ON</p>
+        <p>&#x3068;&#x8868;&#x793A;</p>
       </td>
     </tr>
   </tbody>
@@ -644,19 +645,19 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">31</td>
-      <td style="text-align:left">新規登録</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x65B0;&#x898F;&#x767B;&#x9332;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
     </tr>
   </tbody>
@@ -679,49 +680,49 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">32</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">33</td>
-      <td style="text-align:left">担当者</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x62C5;&#x5F53;&#x8005;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">34</td>
-      <td style="text-align:left">電話番号</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x96FB;&#x8A71;&#x756A;&#x53F7;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">35</td>
-      <td style="text-align:left">メールアドレス</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x30E1;&#x30FC;&#x30EB;&#x30A2;&#x30C9;&#x30EC;&#x30B9;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">36</td>
-      <td style="text-align:left">題名</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x984C;&#x540D;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">37</td>
-      <td style="text-align:left">内容</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x5185;&#x5BB9;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
   </tbody>
@@ -764,19 +765,19 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">38</td>
-      <td style="text-align:left">新規登録</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x65B0;&#x898F;&#x767B;&#x9332;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
     </tr>
   </tbody>
@@ -799,43 +800,43 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">39</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">40</td>
-      <td style="text-align:left">見積日</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x65E5;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">41</td>
-      <td style="text-align:left">有効期限</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x6709;&#x52B9;&#x671F;&#x9650;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">42</td>
-      <td style="text-align:left">税抜合計</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x7A0E;&#x629C;&#x5408;&#x8A08;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">43</td>
-      <td style="text-align:left">納品予定日</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x7D0D;&#x54C1;&#x4E88;&#x5B9A;&#x65E5;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
   </tbody>
@@ -877,19 +878,19 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">45</td>
-      <td style="text-align:left">新規登録</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x65B0;&#x898F;&#x767B;&#x9332;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">button</td>
     </tr>
   </tbody>
@@ -912,43 +913,43 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
       <th style="text-align:left">
-        <p>更新</p>
-        <p>表示</p>
+        <p>&#x66F4;&#x65B0;</p>
+        <p>&#x8868;&#x793A;</p>
       </th>
-      <th style="text-align:left">部品種類</th>
+      <th style="text-align:left">&#x90E8;&#x54C1;&#x7A2E;&#x985E;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">45</td>
       <td style="text-align:left">ID</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">textlink</td>
     </tr>
     <tr>
       <td style="text-align:left">46</td>
-      <td style="text-align:left">受注日</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x65E5;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">47</td>
-      <td style="text-align:left">納品日</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x7D0D;&#x54C1;&#x65E5;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">48</td>
-      <td style="text-align:left">契約金額</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x5951;&#x7D04;&#x91D1;&#x984D;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
     <tr>
       <td style="text-align:left">49</td>
-      <td style="text-align:left">区分</td>
-      <td style="text-align:left">表示</td>
+      <td style="text-align:left">&#x533A;&#x5206;</td>
+      <td style="text-align:left">&#x8868;&#x793A;</td>
       <td style="text-align:left">text</td>
     </tr>
   </tbody>

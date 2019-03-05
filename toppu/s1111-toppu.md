@@ -17,44 +17,52 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">1</td>
-      <td style="text-align:left">見積件数</td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x4EF6;&#x6570;</td>
       <td style="text-align:left">
-        <p>見積件数縦軸とする。</p>
-        <p>単位は件、100件ごとに目盛表示</p>
+        <p>&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x7E26;&#x8EF8;&#x3068;&#x3059;&#x308B;&#x3002;</p>
+        <p>&#x5358;&#x4F4D;&#x306F;&#x4EF6;&#x3001;100&#x4EF6;&#x3054;&#x3068;&#x306B;&#x76EE;&#x76DB;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">2</td>
-      <td style="text-align:left">見積日</td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x65E5;</td>
       <td style="text-align:left">
-        <p>見積日横軸とする。</p>
-        <p>単位は月日、当日 - 6日~当日の7日を1日毎表示</p>
+        <p>&#x898B;&#x7A4D;&#x65E5;&#x6A2A;&#x8EF8;&#x3068;&#x3059;&#x308B;&#x3002;</p>
+        <p>&#x5358;&#x4F4D;&#x306F;&#x6708;&#x65E5;&#x3001;&#x5F53;&#x65E5; - 6&#x65E5;~&#x5F53;&#x65E5;&#x306E;7&#x65E5;&#x3092;1&#x65E5;&#x6BCE;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">見積件数集計データ(今週)</td>
-      <td style="text-align:left">
-        <p>当日 - 6日~当日の1日毎の見積件数集計したもの緑でBar Chart表示</p>
-        <p>マウスバーで件数表示</p>
-        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryCountの値をBar Chart表示</p>
-      </td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x30C7;&#x30FC;&#x30BF;(&#x4ECA;&#x9031;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x5F53;&#x65E5; - 6&#x65E5;~&#x5F53;&#x65E5;&#x306E;1&#x65E5;&#x6BCE;&#x306E;&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x3057;&#x305F;&#x3082;&#x306E;&#x7DD1;&#x3067;Bar
+          Chart&#x8868;&#x793A;</p>
+        <p>&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x4EF6;&#x6570;&#x8868;&#x793A;</p>
+        <p>&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J101
+          &#x898B;&#x7A4D;&#x96C6;&#x8A08;&#x53C2;&#x7167;&#x3001;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;summaryCount&#x306E;&#x5024;&#x3092;Bar
+          Chart&#x8868;&#x793A;</p>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
-      <td style="text-align:left">見積件数集計データ(先週)</td>
-      <td style="text-align:left">
-        <p>今週の日付-7日の1日毎の見積件数集計したもの青でBar Chart表示</p>
-        <p>マウスバーで件数表示</p>
-        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryCountの値をBar Chart表示</p>
-      </td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x30C7;&#x30FC;&#x30BF;(&#x5148;&#x9031;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x4ECA;&#x9031;&#x306E;&#x65E5;&#x4ED8;-7&#x65E5;&#x306E;1&#x65E5;&#x6BCE;&#x306E;&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x3057;&#x305F;&#x3082;&#x306E;&#x9752;&#x3067;Bar
+          Chart&#x8868;&#x793A;</p>
+        <p>&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x4EF6;&#x6570;&#x8868;&#x793A;</p>
+        <p>&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J101
+          &#x898B;&#x7A4D;&#x96C6;&#x8A08;&#x53C2;&#x7167;&#x3001;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;summaryCount&#x306E;&#x5024;&#x3092;Bar
+          Chart&#x8868;&#x793A;</p>
+        </td>
     </tr>
   </tbody>
 </table>
@@ -102,44 +110,52 @@ quotationsummary
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">見積金額</td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x91D1;&#x984D;</td>
       <td style="text-align:left">
-        <p>見積金額縦軸とする。</p>
-        <p>単位は円、100万円ごとに目盛表示</p>
+        <p>&#x898B;&#x7A4D;&#x91D1;&#x984D;&#x7E26;&#x8EF8;&#x3068;&#x3059;&#x308B;&#x3002;</p>
+        <p>&#x5358;&#x4F4D;&#x306F;&#x5186;&#x3001;100&#x4E07;&#x5186;&#x3054;&#x3068;&#x306B;&#x76EE;&#x76DB;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
-      <td style="text-align:left">見積日</td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x65E5;</td>
       <td style="text-align:left">
-        <p>見積日横軸とする。</p>
-        <p>単位は月日、当日 - 6日~当日の7日を1日毎表示</p>
+        <p>&#x898B;&#x7A4D;&#x65E5;&#x6A2A;&#x8EF8;&#x3068;&#x3059;&#x308B;&#x3002;</p>
+        <p>&#x5358;&#x4F4D;&#x306F;&#x6708;&#x65E5;&#x3001;&#x5F53;&#x65E5; - 6&#x65E5;~&#x5F53;&#x65E5;&#x306E;7&#x65E5;&#x3092;1&#x65E5;&#x6BCE;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">見積金額集計データ(今週)</td>
-      <td style="text-align:left">
-        <p>当日 - 6日~当日の1日毎の見積金額緑線でLine Chart表示</p>
-        <p>マウスバーで金額表示</p>
-        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryAmountの値をBar Chart表示</p>
-      </td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x30C7;&#x30FC;&#x30BF;(&#x4ECA;&#x9031;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x5F53;&#x65E5; - 6&#x65E5;~&#x5F53;&#x65E5;&#x306E;1&#x65E5;&#x6BCE;&#x306E;&#x898B;&#x7A4D;&#x91D1;&#x984D;&#x7DD1;&#x7DDA;&#x3067;Line
+          Chart&#x8868;&#x793A;</p>
+        <p>&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x91D1;&#x984D;&#x8868;&#x793A;</p>
+        <p>&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J101
+          &#x898B;&#x7A4D;&#x96C6;&#x8A08;&#x53C2;&#x7167;&#x3001;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;summaryAmount&#x306E;&#x5024;&#x3092;Bar
+          Chart&#x8868;&#x793A;</p>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">8</td>
-      <td style="text-align:left">見積金額集計データ(先週)</td>
-      <td style="text-align:left">
-        <p>今週の日付-7日の1日毎の見積金額青線でLine Chart表示</p>
-        <p>マウスバーで金額表示</p>
-        <p>見積件数取得方法はJ101 見積集計参照、API叩いて出たsummaryAmountの値をBar Chart表示</p>
-      </td>
+      <td style="text-align:left">&#x898B;&#x7A4D;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x30C7;&#x30FC;&#x30BF;(&#x5148;&#x9031;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x4ECA;&#x9031;&#x306E;&#x65E5;&#x4ED8;-7&#x65E5;&#x306E;1&#x65E5;&#x6BCE;&#x306E;&#x898B;&#x7A4D;&#x91D1;&#x984D;&#x9752;&#x7DDA;&#x3067;Line
+          Chart&#x8868;&#x793A;</p>
+        <p>&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x91D1;&#x984D;&#x8868;&#x793A;</p>
+        <p>&#x898B;&#x7A4D;&#x4EF6;&#x6570;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J101
+          &#x898B;&#x7A4D;&#x96C6;&#x8A08;&#x53C2;&#x7167;&#x3001;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;summaryAmount&#x306E;&#x5024;&#x3092;Bar
+          Chart&#x8868;&#x793A;</p>
+        </td>
     </tr>
   </tbody>
 </table>
@@ -187,44 +203,52 @@ quotationSummary
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">9</td>
-      <td style="text-align:left">受注件数</td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x4EF6;&#x6570;</td>
       <td style="text-align:left">
-        <p>受注件数縦軸とする。</p>
-        <p>単位は件、100件ごとに目盛表示</p>
+        <p>&#x53D7;&#x6CE8;&#x4EF6;&#x6570;&#x7E26;&#x8EF8;&#x3068;&#x3059;&#x308B;&#x3002;</p>
+        <p>&#x5358;&#x4F4D;&#x306F;&#x4EF6;&#x3001;100&#x4EF6;&#x3054;&#x3068;&#x306B;&#x76EE;&#x76DB;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">10</td>
-      <td style="text-align:left">受注日</td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x65E5;</td>
       <td style="text-align:left">
-        <p>受注日横軸とする。</p>
-        <p>単位は月日、当日 - 6日~当日の7日を1日毎表示</p>
+        <p>&#x53D7;&#x6CE8;&#x65E5;&#x6A2A;&#x8EF8;&#x3068;&#x3059;&#x308B;&#x3002;</p>
+        <p>&#x5358;&#x4F4D;&#x306F;&#x6708;&#x65E5;&#x3001;&#x5F53;&#x65E5; - 6&#x65E5;~&#x5F53;&#x65E5;&#x306E;7&#x65E5;&#x3092;1&#x65E5;&#x6BCE;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">11</td>
-      <td style="text-align:left">受注件数集計データ(今週)</td>
-      <td style="text-align:left">
-        <p>当日 - 6日~当日の1日毎の受注件数集計したもの緑線でLine Chart2表示</p>
-        <p>マウスバーで件数表示</p>
-        <p>受注件数取得方法はJ102 受注集計参照、API叩いて出たsummaryCountの値をBar Chart2表示</p>
-      </td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x30C7;&#x30FC;&#x30BF;(&#x4ECA;&#x9031;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x5F53;&#x65E5; - 6&#x65E5;~&#x5F53;&#x65E5;&#x306E;1&#x65E5;&#x6BCE;&#x306E;&#x53D7;&#x6CE8;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x3057;&#x305F;&#x3082;&#x306E;&#x7DD1;&#x7DDA;&#x3067;Line
+          Chart2&#x8868;&#x793A;</p>
+        <p>&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x4EF6;&#x6570;&#x8868;&#x793A;</p>
+        <p>&#x53D7;&#x6CE8;&#x4EF6;&#x6570;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;&#x3001;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;summaryCount&#x306E;&#x5024;&#x3092;Bar
+          Chart2&#x8868;&#x793A;</p>
+        </td>
     </tr>
     <tr>
       <td style="text-align:left">12</td>
-      <td style="text-align:left">受注件数集計データ(先週)</td>
-      <td style="text-align:left">
-        <p>今週の日付-7日の1日毎の受注件数集計したもの青線でLine Chart2表示</p>
-        <p>マウスバーで件数表示</p>
-        <p>受注件数取得方法はJ102 受注集計参照、API叩いて出たsummaryCountの値をBar Chart2表示</p>
-      </td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x30C7;&#x30FC;&#x30BF;(&#x5148;&#x9031;)</td>
+      <td
+      style="text-align:left">
+        <p>&#x4ECA;&#x9031;&#x306E;&#x65E5;&#x4ED8;-7&#x65E5;&#x306E;1&#x65E5;&#x6BCE;&#x306E;&#x53D7;&#x6CE8;&#x4EF6;&#x6570;&#x96C6;&#x8A08;&#x3057;&#x305F;&#x3082;&#x306E;&#x9752;&#x7DDA;&#x3067;Line
+          Chart2&#x8868;&#x793A;</p>
+        <p>&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x4EF6;&#x6570;&#x8868;&#x793A;</p>
+        <p>&#x53D7;&#x6CE8;&#x4EF6;&#x6570;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;&#x3001;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;summaryCount&#x306E;&#x5024;&#x3092;Bar
+          Chart2&#x8868;&#x793A;</p>
+        </td>
     </tr>
   </tbody>
 </table>
@@ -273,44 +297,51 @@ ordersummary
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">13</td>
-      <td style="text-align:left">受注日</td>
-      <td style="text-align:left">当月の前の月表示</td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x65E5;</td>
+      <td style="text-align:left">&#x5F53;&#x6708;&#x306E;&#x524D;&#x306E;&#x6708;&#x8868;&#x793A;</td>
     </tr>
     <tr>
       <td style="text-align:left">14</td>
-      <td style="text-align:left">受託</td>
+      <td style="text-align:left">&#x53D7;&#x8A17;</td>
       <td style="text-align:left">
-        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
-        <p>実行現在月の前月、type=1指定してAPI叩いて出た summaryCountractAmountの値を緑でDonut Chart表示</p>
+        <p>&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;</p>
+        <p>&#x5B9F;&#x884C;&#x73FE;&#x5728;&#x6708;&#x306E;&#x524D;&#x6708;&#x3001;type=1&#x6307;&#x5B9A;&#x3057;&#x3066;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;
+          summaryCountractAmount&#x306E;&#x5024;&#x3092;&#x7DD1;&#x3067;Donut Chart&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">15</td>
       <td style="text-align:left">SES</td>
       <td style="text-align:left">
-        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
-        <p>実行現在月の前月、type=2指定してAPI叩いて出た summaryCountractAmountの値を青でDonut Chart表示</p>
+        <p>&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;</p>
+        <p>&#x5B9F;&#x884C;&#x73FE;&#x5728;&#x6708;&#x306E;&#x524D;&#x6708;&#x3001;type=2&#x6307;&#x5B9A;&#x3057;&#x3066;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;
+          summaryCountractAmount&#x306E;&#x5024;&#x3092;&#x9752;&#x3067;Donut Chart&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">16</td>
-      <td style="text-align:left">その他</td>
+      <td style="text-align:left">&#x305D;&#x306E;&#x4ED6;</td>
       <td style="text-align:left">
-        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
-        <p>実行現在月の前月、type=NULL指定してAPI叩いて出た summaryCountractAmountの値をグレーでDonut Chart表示</p>
+        <p>&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;</p>
+        <p>&#x5B9F;&#x884C;&#x73FE;&#x5728;&#x6708;&#x306E;&#x524D;&#x6708;&#x3001;type=NULL&#x6307;&#x5B9A;&#x3057;&#x3066;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;
+          summaryCountractAmount&#x306E;&#x5024;&#x3092;&#x30B0;&#x30EC;&#x30FC;&#x3067;Donut
+          Chart&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">17</td>
-      <td style="text-align:left">受注金額</td>
-      <td style="text-align:left">マウスバーで色ごとの受注金額集計額、区分名表示</td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x91D1;&#x984D;</td>
+      <td style="text-align:left">&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x8272;&#x3054;&#x3068;&#x306E;&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x3001;&#x533A;&#x5206;&#x540D;&#x8868;&#x793A;</td>
     </tr>
   </tbody>
 </table>
@@ -368,44 +399,51 @@ ordersummary
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">18</td>
-      <td style="text-align:left">受注日</td>
-      <td style="text-align:left">当月の月表示</td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x65E5;</td>
+      <td style="text-align:left">&#x5F53;&#x6708;&#x306E;&#x6708;&#x8868;&#x793A;</td>
     </tr>
     <tr>
       <td style="text-align:left">19</td>
-      <td style="text-align:left">受託</td>
+      <td style="text-align:left">&#x53D7;&#x8A17;</td>
       <td style="text-align:left">
-        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
-        <p>当月現在月、type=1指定してAPI叩いて出た summaryCountractAmountの値を緑でDonut Chart表示</p>
+        <p>&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;</p>
+        <p>&#x5F53;&#x6708;&#x73FE;&#x5728;&#x6708;&#x3001;type=1&#x6307;&#x5B9A;&#x3057;&#x3066;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;
+          summaryCountractAmount&#x306E;&#x5024;&#x3092;&#x7DD1;&#x3067;Donut Chart&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">20</td>
       <td style="text-align:left">SES</td>
       <td style="text-align:left">
-        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
-        <p>実行現在月、type=2指定してAPI叩いて出た summaryCountractAmountの値を青でDonut Chart表示</p>
+        <p>&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;</p>
+        <p>&#x5B9F;&#x884C;&#x73FE;&#x5728;&#x6708;&#x3001;type=2&#x6307;&#x5B9A;&#x3057;&#x3066;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;
+          summaryCountractAmount&#x306E;&#x5024;&#x3092;&#x9752;&#x3067;Donut Chart&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">21</td>
-      <td style="text-align:left">その他</td>
+      <td style="text-align:left">&#x305D;&#x306E;&#x4ED6;</td>
       <td style="text-align:left">
-        <p>受注金額集計額取得方法はJ102 受注集計参照</p>
-        <p>実行現在月、type=NULL指定してAPI叩いて出た summaryCountractAmountの値をグレーでDonut Chart表示</p>
+        <p>&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x53D6;&#x5F97;&#x65B9;&#x6CD5;&#x306F;J102
+          &#x53D7;&#x6CE8;&#x96C6;&#x8A08;&#x53C2;&#x7167;</p>
+        <p>&#x5B9F;&#x884C;&#x73FE;&#x5728;&#x6708;&#x3001;type=NULL&#x6307;&#x5B9A;&#x3057;&#x3066;API&#x53E9;&#x3044;&#x3066;&#x51FA;&#x305F;
+          summaryCountractAmount&#x306E;&#x5024;&#x3092;&#x30B0;&#x30EC;&#x30FC;&#x3067;Donut
+          Chart&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">22</td>
-      <td style="text-align:left">受注金額</td>
-      <td style="text-align:left">マウスバーで色ごとの受注金額集計額、区分名表示</td>
+      <td style="text-align:left">&#x53D7;&#x6CE8;&#x91D1;&#x984D;</td>
+      <td style="text-align:left">&#x30DE;&#x30A6;&#x30B9;&#x30D0;&#x30FC;&#x3067;&#x8272;&#x3054;&#x3068;&#x306E;&#x53D7;&#x6CE8;&#x91D1;&#x984D;&#x96C6;&#x8A08;&#x984D;&#x3001;&#x533A;&#x5206;&#x540D;&#x8868;&#x793A;</td>
     </tr>
   </tbody>
 </table>

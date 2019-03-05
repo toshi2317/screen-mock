@@ -16,26 +16,27 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">2</td>
-      <td style="text-align:left">保存</td>
+      <td style="text-align:left">&#x4FDD;&#x5B58;</td>
       <td style="text-align:left">
-        <p>保存APIを実行</p>
-        <p>・失敗した場合、当画面に止まり、APIから返却された</p>
-        <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、登録完了しましたメッセージ表示</p>
-        <p>・登録完了しましたメッセージ表示後、S112_3 担当部署編集画面へ遷移する</p>
+        <p>&#x4FDD;&#x5B58;API&#x3092;&#x5B9F;&#x884C;</p>
+        <p>&#x30FB;&#x5931;&#x6557;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x5F53;&#x753B;&#x9762;&#x306B;&#x6B62;&#x307E;&#x308A;&#x3001;API&#x304B;&#x3089;&#x8FD4;&#x5374;&#x3055;&#x308C;&#x305F;</p>
+        <p>&#x30A8;&#x30E9;&#x30FC;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;</p>
+        <p>&#x30FB;&#x6210;&#x529F;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x767B;&#x9332;&#x5B8C;&#x4E86;&#x3057;&#x307E;&#x3057;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x8868;&#x793A;</p>
+        <p>&#x30FB;&#x767B;&#x9332;&#x5B8C;&#x4E86;&#x3057;&#x307E;&#x3057;&#x305F;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x8868;&#x793A;&#x5F8C;&#x3001;S112_3
+          &#x62C5;&#x5F53;&#x90E8;&#x7F72;&#x7DE8;&#x96C6;&#x753B;&#x9762;&#x3078;&#x9077;&#x79FB;&#x3059;&#x308B;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">戻る</td>
-      <td style="text-align:left">前の画面に戻る</td>
+      <td style="text-align:left">&#x623B;&#x308B;</td>
+      <td style="text-align:left">&#x524D;&#x306E;&#x753B;&#x9762;&#x306B;&#x623B;&#x308B;</td>
     </tr>
   </tbody>
 </table>

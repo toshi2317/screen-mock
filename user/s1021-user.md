@@ -35,41 +35,41 @@
   <thead>
     <tr>
       <th style="text-align:left">No</th>
-      <th style="text-align:left">名称</th>
-      <th style="text-align:left">表示条件/仕様</th>
+      <th style="text-align:left">&#x540D;&#x79F0;</th>
+      <th style="text-align:left">&#x8868;&#x793A;&#x6761;&#x4EF6;/&#x4ED5;&#x69D8;</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">4</td>
-      <td style="text-align:left">権限</td>
+      <td style="text-align:left">&#x6A29;&#x9650;</td>
       <td style="text-align:left">
-        <p>1:システム管理者</p>
-        <p>リスト値表示</p>
+        <p>1:&#x30B7;&#x30B9;&#x30C6;&#x30E0;&#x7BA1;&#x7406;&#x8005;</p>
+        <p>&#x30EA;&#x30B9;&#x30C8;&#x5024;&#x8868;&#x793A;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">検索</td>
+      <td style="text-align:left">&#x691C;&#x7D22;</td>
       <td style="text-align:left">
-        <p>検索APIを実行</p>
-        <p>・失敗した場合、当画面に止まり、APIから返却された</p>
-        <p>エラーメッセージを表示する</p>
-        <p>・成功した場合、検索APIの返却値を一覧表示部に表示する</p>
+        <p>&#x691C;&#x7D22;API&#x3092;&#x5B9F;&#x884C;</p>
+        <p>&#x30FB;&#x5931;&#x6557;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x5F53;&#x753B;&#x9762;&#x306B;&#x6B62;&#x307E;&#x308A;&#x3001;API&#x304B;&#x3089;&#x8FD4;&#x5374;&#x3055;&#x308C;&#x305F;</p>
+        <p>&#x30A8;&#x30E9;&#x30FC;&#x30E1;&#x30C3;&#x30BB;&#x30FC;&#x30B8;&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;</p>
+        <p>&#x30FB;&#x6210;&#x529F;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;&#x691C;&#x7D22;API&#x306E;&#x8FD4;&#x5374;&#x5024;&#x3092;&#x4E00;&#x89A7;&#x8868;&#x793A;&#x90E8;&#x306B;&#x8868;&#x793A;&#x3059;&#x308B;</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
-      <td style="text-align:left">クリア</td>
-      <td style="text-align:left">検索条件部をデフォルトの状態に戻す</td>
+      <td style="text-align:left">&#x30AF;&#x30EA;&#x30A2;</td>
+      <td style="text-align:left">&#x691C;&#x7D22;&#x6761;&#x4EF6;&#x90E8;&#x3092;&#x30C7;&#x30D5;&#x30A9;&#x30EB;&#x30C8;&#x306E;&#x72B6;&#x614B;&#x306B;&#x623B;&#x3059;</td>
     </tr>
     <tr>
       <td style="text-align:left">7</td>
-      <td style="text-align:left">メール　　配信</td>
+      <td style="text-align:left">&#x30E1;&#x30FC;&#x30EB;&#x3000;&#x3000;&#x914D;&#x4FE1;</td>
       <td style="text-align:left">
-        <p>・押下で固定文言のメールを指定したユーザのメールアドレスに送信する</p>
-        <p>・APIサーバで送信先や題名、本文をセットし、別パッケージからSendGridと連携をする</p>
-        <p>・SendGrid情報などはenv設定</p>
+        <p>&#x30FB;&#x62BC;&#x4E0B;&#x3067;&#x56FA;&#x5B9A;&#x6587;&#x8A00;&#x306E;&#x30E1;&#x30FC;&#x30EB;&#x3092;&#x6307;&#x5B9A;&#x3057;&#x305F;&#x30E6;&#x30FC;&#x30B6;&#x306E;&#x30E1;&#x30FC;&#x30EB;&#x30A2;&#x30C9;&#x30EC;&#x30B9;&#x306B;&#x9001;&#x4FE1;&#x3059;&#x308B;</p>
+        <p>&#x30FB;API&#x30B5;&#x30FC;&#x30D0;&#x3067;&#x9001;&#x4FE1;&#x5148;&#x3084;&#x984C;&#x540D;&#x3001;&#x672C;&#x6587;&#x3092;&#x30BB;&#x30C3;&#x30C8;&#x3057;&#x3001;&#x5225;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x304B;&#x3089;SendGrid&#x3068;&#x9023;&#x643A;&#x3092;&#x3059;&#x308B;</p>
+        <p>&#x30FB;SendGrid&#x60C5;&#x5831;&#x306A;&#x3069;&#x306F;env&#x8A2D;&#x5B9A;</p>
       </td>
     </tr>
   </tbody>
